@@ -1,7 +1,9 @@
 import React from "react";
-import "./css/style.css";
 import "./css/home.css";
 import "./css/properties.css";
+import "./css/style.css";
+
+import Particles from "./Particles";
 
 function Home(): React.ReactElement {
   const birthdate = new Date(2004, 11, 15);
@@ -11,7 +13,9 @@ function Home(): React.ReactElement {
 
   return (
     <section className="section" id="home_section">
-      <div id="particles"></div>
+      <div id="particles">
+        <Particles />
+      </div>
       <div className="content">
         <span className="hi">Je m'appelle</span>
         <span className="name">Théo Fabiano.</span>
