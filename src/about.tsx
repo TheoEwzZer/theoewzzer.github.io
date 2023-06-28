@@ -1,7 +1,7 @@
 import React from "react";
-import "./css/style.css";
 import "./css/about.css";
 import "./css/properties.css";
+import "./css/style.css";
 
 function About(): React.ReactElement {
   return (

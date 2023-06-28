@@ -1,7 +1,7 @@
 import React from "react";
-import "./css/style.css";
 import "./css/contact.css";
 import "./css/properties.css";
+import "./css/style.css";
 
 function Contact(): React.ReactElement {
   const LinkedIn = {

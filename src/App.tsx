@@ -1,7 +1,7 @@
 import React from "react";
-import Home from "./home";
 import About from "./about";
 import Contact from "./contact";
+import Home from "./home";
 
 function App(): React.ReactElement {
   return (
