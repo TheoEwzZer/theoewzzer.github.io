@@ -15,68 +15,73 @@ function Contact(): React.ReactElement {
   } as React.CSSProperties;
 
   return (
-    <section className="section" id="contact_section">
-      <div className="content leaning">
-        <span className="section_title">Comment me contacter ?</span>
-        <div className="contact_content">
-          <div className="social_line">
-            <a
-              className="social_link"
-              href="https://www.linkedin.com/in/theo-fabiano/"
-              target="_blank"
-              style={LinkedIn}
-              rel="noreferrer"
-            >
-              <img
-                src="/shapes/contact/Linkedin.svg"
-                alt="linkedin"
-                width="50px"
-                height="50px"
-              />
-              <div className="social_text">
-                <span>in/Théo-Fabiano</span>
-              </div>
-            </a>
-          </div>
-          <div className="social_line">
-            <a
-              className="social_link"
-              href="https://github.com/TheoEwzZer"
-              target="_blank"
-              style={github}
-              rel="noreferrer"
-            >
-              <img
-                src="/shapes/contact/GitHub.svg"
-                alt="github"
-                width="50px"
-                height="50px"
-              />
-              <div className="social_text">
-                <span>TheoEwzZer</span>
-              </div>
-            </a>
-          </div>
-          <div className="social_line">
-            <div className="social_link" style={mail}>
-              <img
-                src="/shapes/contact/Mail.svg"
-                alt="mail"
-                width="50px"
-                height="50px"
-              />
-              <div className="social_text">
-                <span>
-                  <a href="mailto:theo.fabiano@epitech.eu">
-                    theo.fabiano@epitech.eu
-                  </a>
-                </span>
+    <>
+      <a href="#contact" id="contact">
+        {" "}
+      </a>
+      <section className="section" id="contact_section">
+        <div className="content leaning">
+          <span className="section_title">Comment me contacter ?</span>
+          <div className="contact_content">
+            <div className="social_line">
+              <a
+                className="social_link"
+                href="https://www.linkedin.com/in/theo-fabiano/"
+                target="_blank"
+                style={LinkedIn}
+                rel="noreferrer"
+              >
+                <img
+                  src="/shapes/contact/Linkedin.svg"
+                  alt="linkedin"
+                  width="50px"
+                  height="50px"
+                />
+                <div className="social_text">
+                  <span>in/Théo-Fabiano</span>
+                </div>
+              </a>
+            </div>
+            <div className="social_line">
+              <a
+                className="social_link"
+                href="https://github.com/TheoEwzZer"
+                target="_blank"
+                style={github}
+                rel="noreferrer"
+              >
+                <img
+                  src="/shapes/contact/GitHub.svg"
+                  alt="github"
+                  width="50px"
+                  height="50px"
+                />
+                <div className="social_text">
+                  <span>TheoEwzZer</span>
+                </div>
+              </a>
+            </div>
+            <div className="social_line">
+              <div className="social_link" style={mail}>
+                <img
+                  src="/shapes/contact/Mail.svg"
+                  alt="mail"
+                  width="50px"
+                  height="50px"
+                />
+                <div className="social_text">
+                  <span>
+                    <a href="mailto:theo.fabiano@epitech.eu">
+                      theo.fabiano@epitech.eu
+                    </a>
+                  </span>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 }
 

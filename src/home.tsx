@@ -12,26 +12,31 @@ function Home(): React.ReactElement {
   );
 
   return (
-    <section className="section" id="home_section">
-      <div id="particles">
-        <Particles />
-      </div>
-      <div className="content">
-        <span className="hi">Je m'appelle</span>
-        <span className="name">Théo Fabiano.</span>
-        <p className="bio">
-          Je suis un étudiant français de {age} ans à l'école d'informatique
-          <a
-            className="link"
-            href="https://www.epitech.eu/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Epitech Technology
-          </a>
-        </p>
-      </div>
-    </section>
+    <>
+      <a href="#home" id="home">
+        {" "}
+      </a>
+      <section className="section" id="home_section">
+        <div id="particles">
+          <Particles />
+        </div>
+        <div className="content">
+          <span className="hi">Je m'appelle</span>
+          <span className="name">Théo Fabiano.</span>
+          <p className="bio">
+            Je suis un étudiant français de {age} ans à l'école d'informatique
+            <a
+              className="link"
+              href="https://www.epitech.eu/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Epitech Technology
+            </a>
+          </p>
+        </div>
+      </section>
+    </>
   );
 }
 

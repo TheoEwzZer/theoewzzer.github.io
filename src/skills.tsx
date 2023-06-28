@@ -127,14 +127,19 @@ function Skills(): React.ReactElement {
   }, [data]);
 
   return (
-    <section className="section" id="skills_section">
-      <div className="content leaning">
-        <span className="section_title">Quelles sont mes compétences ?</span>
-        <div className="skills_content">
-          <div className="box"></div>
+    <>
+      <a href="#skills" id="skills">
+        {" "}
+      </a>
+      <section className="section" id="skills_section">
+        <div className="content leaning">
+          <span className="section_title">Quelles sont mes compétences ?</span>
+          <div className="skills_content">
+            <div className="box"></div>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 }
 
