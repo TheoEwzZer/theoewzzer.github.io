@@ -8,8 +8,11 @@ export function sleep(ms: number): Promise<void> {
   );
 }
 
-export function is_in_viewport(el: any): boolean {
-  const rect: any = el.getBoundingClientRect();
+export function is_in_viewport(el: Element | HTMLElement | null): boolean {
+  if (!el) {
+    return false;
+  }
+  const rect: DOMRect = el.getBoundingClientRect();
 
   return (
     rect.bottom >= 0 &&
