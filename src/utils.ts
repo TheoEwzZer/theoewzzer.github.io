@@ -1,3 +1,22 @@
+export function is_safari(): boolean {
+  return /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+}
+
+export function sleep(ms: number): Promise<void> {
+  return new Promise((resolve: (value: void | PromiseLike<void>) => void) =>
+    setTimeout(resolve, ms)
+  );
+}
+
+export function is_in_viewport(el: any): boolean {
+  const rect: any = el.getBoundingClientRect();
+
+  return (
+    rect.bottom >= 0 &&
+    rect.top <= (window.innerHeight || document.documentElement.clientHeight)
+  );
+}
+
 function read_json(url: string, callback: (data: any) => void): void {
   let xhr: XMLHttpRequest = new XMLHttpRequest();
   xhr.open("GET", url);
