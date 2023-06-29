@@ -8,10 +8,12 @@ import Projects from "./projects";
 import Header from "./header";
 import LCP from "./lcp";
 import Safari from "./safari";
+import Loading from "./loading";
 
 function App(): React.ReactElement {
   return (
     <>
+      <Loading />
       <Safari />
       <LCP />
       <Header />
