@@ -1,0 +1,413 @@
+{
+  "projects": [
+    {
+      "date": "2023-01",
+      "type": "Hackathon",
+      "title": "Escape from the Roots",
+      "description": "Projet réalisé lors de la Global Game Jam dont le thème était 'Roots'. C'est un jeu d'horreur 2d où le but est de s'échapper du labyrinthe sans se faire attraper par les arbres",
+      "tags": [
+        {
+          "name": "C#",
+          "url": "https://fr.wikipedia.org/wiki/C_sharp"
+        },
+        {
+          "name": "Unity",
+          "url": "https://unity.com/"
+        }
+      ],
+      "links": [
+        "https://simmer.io/@TheoEwzZer/escape-from-the-roots",
+        "https://github.com/TheoEwzZer/Escape-from-the-Roots",
+        "https://simmer.io/@TheoEwzZer/escape-from-the-roots"
+      ],
+      "image": "images/projects/EscapefromtheRoots.png",
+      "categories": ["Personnel", "Jeux"]
+    },
+    {
+      "date": "2023-02",
+      "type": "Projet Scolaire",
+      "title": "42sh",
+      "description": "Le projet consiste à développer un interpréteur de commandes UNIX, similaire au shell TCSH. L'objectif est de pouvoir exécuter des commandes de base, gérer les erreurs, les variables d'environnement et les commandes intégrées telles que cd, setenv, unsetenv, env et exit. L'interpréteur doit également gérer la recherche des exécutables dans le PATH et afficher un prompt pour attendre les commandes de l'utilisateur.",
+      "tags": [
+        {
+          "name": "C",
+          "url": "https://fr.wikipedia.org/wiki/C_(langage)"
+        },
+        {
+          "name": "Unix",
+          "url": "https://fr.wikipedia.org/wiki/Unix"
+        }
+      ],
+      "links": [
+        "https://github.com/TheoEwzZer/42sh",
+        "https://github.com/TheoEwzZer/42sh",
+        "none"
+      ],
+      "image": "images/projects/42sh.png",
+      "categories": ["École"]
+    },
+    {
+      "date": "2022-11",
+      "type": "Projet Scolaire",
+      "title": "MyHunter",
+      "description": "Le projet consiste à créer un petit jeu vidéo inspiré de Duck Hunt. Le joueur incarne un chasseur qui doit tirer sur des canards qui apparaissent à l'écran. Le jeu doit gérer les entrées de l'utilisateur, afficher des sprites animés et permettre de déplacer et de tirer sur les canards. L'objectif est de créer un jeu amusant tout en respectant les règles et les fonctionnalités demandées.",
+      "tags": [
+        {
+          "name": "C",
+          "url": "https://fr.wikipedia.org/wiki/C_(langage)"
+        },
+        {
+          "name": "CSFML",
+          "url": "https://www.sfml-dev.org/index.php"
+        }
+      ],
+      "links": [
+        "https://github.com/TheoEwzZer/MyHunter",
+        "https://github.com/TheoEwzZer/MyHunter",
+        "none"
+      ],
+      "image": "images/projects/Hunter.png",
+      "categories": ["École", "Jeux"]
+    },
+    {
+      "date": "2022-12",
+      "type": "Projet Scolaire",
+      "title": "Radar",
+      "description": "Le projet consiste à développer une simulation de trafic aérien. Le programme affiche un panneau de visualisation en 2D où des avions et des tours de contrôle évoluent selon des règles prédéfinies. Les avions se déplacent en ligne droite, décollent, atterrissent et peuvent entrer en collision, tandis que les tours de contrôle ont des zones de contrôle circulaires. L'objectif est de créer une simulation réaliste en respectant les fonctionnalités demandées et en permettant à l'utilisateur d'interagir avec la visualisation.",
+      "tags": [
+        {
+          "name": "C",
+          "url": "https://fr.wikipedia.org/wiki/C_(langage)"
+        },
+        {
+          "name": "CSFML",
+          "url": "https://www.sfml-dev.org/index.php"
+        }
+      ],
+      "links": [
+        "https://github.com/TheoEwzZer/MyRadar",
+        "https://github.com/TheoEwzZer/MyRadar",
+        "none"
+      ],
+      "image": "images/projects/Radar.png",
+      "categories": ["École", "Simulations"]
+    },
+    {
+      "date": "2022-11",
+      "type": "Projet Scolaire",
+      "title": "BSQ",
+      "description": "Le projet consiste à trouver le plus grand carré possible sur une grille en évitant les obstacles. La grille peut être générée à partir d'un fichier ou en utilisant des paramètres de largeur, hauteur et un motif répété. Le programme doit afficher la grille avec les cases du plus grand carré remplacées par des 'x'. L'objectif est de trouver la solution la plus haute et, en cas de plusieurs solutions, de choisir le carré le plus à gauche.",
+      "tags": [
+        {
+          "name": "C",
+          "url": "https://fr.wikipedia.org/wiki/C_(langage)"
+        }
+      ],
+      "links": [
+        "https://github.com/TheoEwzZer/BSQ",
+        "https://github.com/TheoEwzZer/BSQ",
+        "none"
+      ],
+      "image": "images/projects/BSQ.png",
+      "categories": ["École"]
+    },
+    {
+      "date": "2022-11",
+      "type": "Projet Scolaire",
+      "title": "Sokoban",
+      "description": "Le projet consiste à développer une version du jeu Sokoban en mode terminal en utilisant la bibliothèque ncurses. Le joueur doit déplacer des caisses dans un entrepôt en poussant les caisses vers des emplacements de stockage. Le jeu est terminé lorsque toutes les caisses sont placées sur les emplacements de stockage. Le programme doit être capable de gérer le redimensionnement du terminal et les touches fléchées pour les déplacements du joueur.",
+      "tags": [
+        {
+          "name": "C",
+          "url": "https://fr.wikipedia.org/wiki/C_(langage)"
+        },
+        {
+          "name": "Ncurses",
+          "url": "https://fr.wikipedia.org/wiki/Ncurses"
+        }
+      ],
+      "links": ["https://github.com/TheoEwzZer/sokoban", "none"],
+      "image": "images/projects/Sokoban.png",
+      "categories": ["École", "Jeux"]
+    },
+    {
+      "date": "2023-01",
+      "type": "Projet Scolaire",
+      "title": "Antman",
+      "description": "Le projet consiste à développer deux programmes, 'antman' et 'giantman', qui permettent respectivement de compresser et de décompresser des fichiers. L'objectif est de mettre en œuvre un algorithme de compression sans perte pour réduire la taille des fichiers tout en garantissant la récupération exacte des données originales lors de la décompression. Les programmes doivent prendre en compte différents types de fichiers, tels que des fichiers texte, des fichiers HTML et des images PPM, et doivent fonctionner efficacement même sur de grands fichiers.",
+      "tags": [
+        {
+          "name": "C",
+          "url": "https://fr.wikipedia.org/wiki/C_(langage)"
+        }
+      ],
+      "links": [
+        "https://github.com/TheoEwzZer/Antman",
+        "https://github.com/TheoEwzZer/Antman",
+        "none"
+      ],
+      "image": "none",
+      "categories": ["École"]
+    },
+    {
+      "date": "2022-11",
+      "type": "Projet Scolaire",
+      "title": "Push Swap",
+      "description": "Le projet consiste à développer un programme qui trie une liste de nombres en utilisant un ensemble limité d'opérations. Le programme prendra en entrée une liste non triée et doit produire une séquence d'opérations permettant de trier la liste avec le moins d'opérations possible. L'objectif est d'implémenter un algorithme efficace pour résoudre ce problème de tri de manière optimale.",
+      "tags": [
+        {
+          "name": "C",
+          "url": "https://fr.wikipedia.org/wiki/C_(langage)"
+        }
+      ],
+      "links": [
+        "https://github.com/TheoEwzZer/Pushswap",
+        "https://github.com/TheoEwzZer/Pushswap",
+        "none"
+      ],
+      "image": "none",
+      "categories": ["École"]
+    },
+    {
+      "date": "2021",
+      "type": "Projet Personnel",
+      "title": "Biker Neon",
+      "description": "Un jeu vidéo mobile inspiré du célèbre jeu Rider",
+      "tags": [
+        {
+          "name": "Unity",
+          "url": "https://unity.com/"
+        },
+        {
+          "name": "C#",
+          "url": "https://fr.wikipedia.org/wiki/C_sharp"
+        }
+      ],
+      "links": [
+        "https://simmer.io/@TheoEwzZer/biker-neon",
+        "none",
+        "https://simmer.io/@TheoEwzZer/biker-neon"
+      ],
+      "image": "none",
+      "categories": ["Personnel", "Jeux"]
+    },
+    {
+      "date": "2023-02",
+      "type": "Projet Scolaire",
+      "title": "MyPaint",
+      "description": "Le projet consiste à développer un logiciel de dessin similaire à 'Paint' en utilisant une interface graphique. Le programme doit permettre à l'utilisateur de dessiner à l'aide d'outils tels que le crayon et la gomme, ainsi que de modifier les paramètres de ces outils. Il doit également offrir des fonctionnalités telles que la sauvegarde des images dans différents formats.",
+      "tags": [
+        {
+          "name": "C",
+          "url": "https://fr.wikipedia.org/wiki/C_(langage)"
+        },
+        {
+          "name": "CSFML",
+          "url": "https://www.sfml-dev.org/index.php"
+        }
+      ],
+      "links": [
+        "https://github.com/TheoEwzZer/MyPaint",
+        "https://github.com/TheoEwzZer/MyPaint",
+        "none"
+      ],
+      "image": "images/projects/paint.png",
+      "categories": ["École"]
+    },
+    {
+      "date": "2023-03",
+      "type": "Projet Scolaire",
+      "title": "MyRpg",
+      "description": "Le projet consiste à créer un jeu de rôle (RPG) complet en utilisant le langage C. Le jeu doit offrir une interface utilisateur agréable, un univers cohérent avec des graphismes et des sons adaptés, ainsi qu'une expérience de jeu amusante avec des objectifs à atteindre. Il doit également inclure des caractéristiques de joueur, des combats, un inventaire, des quêtes, et permettre au joueur de gagner de l'expérience et de progresser dans le jeu.",
+      "tags": [
+        {
+          "name": "C",
+          "url": "https://fr.wikipedia.org/wiki/C_(langage)"
+        },
+        {
+          "name": "CSFML",
+          "url": "https://www.sfml-dev.org/index.php"
+        }
+      ],
+      "links": [
+        "https://github.com/TheoEwzZer/MyRpg",
+        "https://github.com/TheoEwzZer/MyRpg",
+        "none"
+      ],
+      "image": "images/projects/rpg.png",
+      "categories": ["École", "Jeux"]
+    },
+    {
+      "date": "2023-02",
+      "type": "Projet Scolaire",
+      "title": "Dante's Star",
+      "description": "Le projet consiste à générer des labyrinthes, trouver le chemin de sortie et résoudre les labyrinthes le plus rapidement possible. Le projet inclut également la mesure des performances et l'optimisation des algorithmes utilisés.",
+      "tags": [
+        {
+          "name": "C",
+          "url": "https://fr.wikipedia.org/wiki/C_(langage)"
+        }
+      ],
+      "links": [
+        "https://github.com/TheoEwzZer/Dante",
+        "https://github.com/TheoEwzZer/Dante",
+        "none"
+      ],
+      "image": "images/projects/dante.png",
+      "categories": ["École"]
+    },
+    {
+      "date": "2023-03",
+      "type": "Projet Scolaire",
+      "title": "Lem-in",
+      "description": "Le projet consiste à simuler un calculateur appelé 'Hex' qui fonctionne comme une fourmilière avec des salles et des tunnels. Le but est de trouver le moyen le plus rapide de faire traverser les fourmis de l'entrée à la sortie de cette fourmilière virtuelle, en évitant les embouteillages et en empruntant le chemin le plus court.",
+      "tags": [
+        {
+          "name": "C",
+          "url": "https://fr.wikipedia.org/wiki/C_(langage)"
+        }
+      ],
+      "links": [
+        "https://github.com/TheoEwzZer/Lemin",
+        "https://github.com/TheoEwzZer/Lemin",
+        "none"
+      ],
+      "image": "images/projects/lemin.png",
+      "categories": ["École"]
+    },
+    {
+      "date": "2023-04",
+      "type": "Projet Scolaire",
+      "title": "Need4Stek",
+      "description": "Le projet consiste à créer une voiture autonome utilisant un Lidar, capable de conduire sur une piste virtuelle sans heurter les murs ni rouler dans la mauvaise direction. L'objectif est de développer une intelligence artificielle performante pour contrôler la voiture en utilisant le simulateur CoppeliaSim",
+      "tags": [
+        {
+          "name": "C",
+          "url": "https://fr.wikipedia.org/wiki/C_(langage)"
+        }
+      ],
+      "links": [
+        "https://github.com/TheoEwzZer/Need4Stek",
+        "https://github.com/TheoEwzZer/Need4Stek",
+        "none"
+      ],
+      "image": "images/projects/need4stek.png",
+      "categories": ["École", "IA", "Simulations"]
+    },
+    {
+      "date": "2023-02",
+      "type": "Projet Scolaire",
+      "title": "Popeye",
+      "description": "Le projet consiste à containeriser et déployer une application de sondage web. L'objectif est de maîtriser les bases de la containerisation et de décrire une infrastructure multi-conteneurs avec Docker et Docker Compose.",
+      "tags": [
+        {
+          "name": "Docker",
+          "url": "https://www.docker.com"
+        }
+      ],
+      "links": [
+        "https://github.com/TheoEwzZer/Popeye",
+        "https://github.com/TheoEwzZer/Popeye",
+        "none"
+      ],
+      "image": "images/projects/popeye.png",
+      "categories": ["École", "DevOps"]
+    },
+    {
+      "date": "2023-03",
+      "type": "Projet Scolaire",
+      "title": "Chocolatine",
+      "description": "Le projet consiste à mettre en place un flux de travail avec GitHub Actions pour appliquer des bonnes pratiques et des règles diverses dans un référentiel de code. L'objectif est d'automatiser le processus de vérification du style de code, de compilation du programme et d'exécution des tests.",
+      "tags": [
+        {
+          "name": "Github Actions",
+          "url": "https://github.com/features/actions"
+        }
+      ],
+      "links": [
+        "https://github.com/TheoEwzZer/Chocolatine",
+        "https://github.com/TheoEwzZer/Chocolatine",
+        "none"
+      ],
+      "image": "images/projects/chocolatine.png",
+      "categories": ["École", "DevOps"]
+    },
+    {
+      "date": "2023-06",
+      "type": "Projet Personnel",
+      "title": "Todo Manager",
+      "description": "Le projet consiste à créer une application web de gestion de tâches. L'objectif est de maîtriser les bases de React et de créer une API REST avec FastAPI.",
+      "tags": [
+        {
+          "name": "Typescript",
+          "url": "https://www.typescriptlang.org"
+        },
+        {
+          "name": "React",
+          "url": "https://react.dev"
+        },
+        {
+          "name": "Python",
+          "url": "https://www.python.org"
+        },
+        {
+          "name": "FastAPI",
+          "url": "https://fastapi.tiangolo.com"
+        },
+        {
+          "name": "MySQL",
+          "url": "https://www.mysql.com"
+        }
+      ],
+      "links": [
+        "https://github.com/TheoEwzZer/Todo",
+        "https://github.com/TheoEwzZer/Todo",
+        "none"
+      ],
+      "image": "images/projects/todo.png",
+      "categories": ["Personnel", "Web"]
+    },
+    {
+      "date": "2023-06",
+      "type": "Projet Personnel",
+      "title": "GameZen",
+      "description": "GameZen est un plugin qui active automatiquement le mode Ne pas déranger sur Discord lorsqu'un jeu est lancé. Il vise à offrir une expérience de jeu sans interruption en ajustant automatiquement le statut de l'utilisateur. Cela permet aux utilisateurs de se concentrer pleinement sur leur jeu sans être dérangés par des notifications ou des messages indésirables.",
+      "tags": [
+        {
+          "name": "JavaScript",
+          "url": "https://www.javascript.com"
+        },
+        {
+          "name": "BetterDiscord",
+          "url": "https://betterdiscord.app"
+        }
+      ],
+      "links": [
+        "https://github.com/TheoEwzZer/GameZen",
+        "https://github.com/TheoEwzZer/GameZen",
+        "https://github.com/TheoEwzZer/GameZen/blob/main/GameZen.plugin.js"
+      ],
+      "image": "none",
+      "categories": ["Personnel"]
+    },
+    {
+      "date": "2023-04",
+      "type": "Projet Scolaire",
+      "title": "Corewar",
+      "description": "Corewar est un projet de jeu où plusieurs programmes appelés Champions se battent pour être les derniers en vie. Il s'agit d'une simulation informatique où les processeurs partagent une mémoire pour s'exécuter. Le but du projet est de créer une machine virtuelle dans laquelle les champions luttent pour la mémoire et le dernier champion à exécuter l'instruction live est déclaré vainqueur.",
+      "tags": [
+        {
+          "name": "C",
+          "url": "https://fr.wikipedia.org/wiki/C_(langage)"
+        }
+      ],
+      "links": [
+        "https://github.com/TheoEwzZer/corewar",
+        "https://github.com/TheoEwzZer/corewar",
+        "none"
+      ],
+      "image": "images/projects/corewar.png",
+      "categories": ["École", "Simulations", "Jeux"]
+    }
+  ]
+}
