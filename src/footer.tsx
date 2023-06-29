@@ -51,8 +51,8 @@ function Footer(): React.ReactElement {
           <div className="footer_content">
             <p>
               Inspiré du Portfolio de Angel Uriot en utilisant uniquement du
-              TypeScript et React. Merci d'avoir lu jusqu'à la fin, j'espère que
-              vous avez apprécié ce site.
+              TypeScript, CSS et React. Merci d'avoir lu jusqu'à la fin,
+              j'espère que vous avez apprécié ce site.
             </p>
           </div>
         </div>
