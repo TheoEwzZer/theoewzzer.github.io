@@ -6,10 +6,12 @@ import Skills from "./skills";
 import Footer from "./footer";
 import Projects from "./projects";
 import Header from "./header";
+import LCP from "./lcp";
 
 function App(): React.ReactElement {
   return (
     <>
+      <LCP />
       <Header />
       <Home />
       <About />
