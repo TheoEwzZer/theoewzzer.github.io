@@ -61,9 +61,7 @@ function Particle(): React.ReactElement {
           move: {
             direction: "none",
             enable: true,
-            outModes: {
-              default: "bounce",
-            },
+            outModes: "out",
             random: false,
             speed: 2,
             straight: false,
