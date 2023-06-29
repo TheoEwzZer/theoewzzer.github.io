@@ -7,10 +7,12 @@ import Footer from "./footer";
 import Projects from "./projects";
 import Header from "./header";
 import LCP from "./lcp";
+import Safari from "./safari";
 
 function App(): React.ReactElement {
   return (
     <>
+      <Safari />
       <LCP />
       <Header />
       <Home />
