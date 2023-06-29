@@ -333,7 +333,6 @@ function Projects(): React.ReactElement {
     .forEach((el: Element): void => {
       el.addEventListener("click", (): void => {
         sort_by = el.innerHTML;
-        console.log(sort_by);
         if (data !== null) {
           generate(data);
         }
