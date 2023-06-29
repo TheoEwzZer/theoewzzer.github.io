@@ -45,7 +45,6 @@ function Skills(): React.ReactElement {
     const fetchData: () => void = (): void => {
       read_json("/jsons/skills.json", (data: SkillsData): void => {
         setData(data);
-        console.log(data);
       });
     };
     fetchData();
