@@ -5,10 +5,12 @@ import Home from "./home";
 import Skills from "./skills";
 import Footer from "./footer";
 import Projects from "./projects";
+import Header from "./header";
 
 function App(): React.ReactElement {
   return (
     <>
+      <Header />
       <Home />
       <About />
       <Projects />
