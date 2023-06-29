@@ -9,61 +9,58 @@ function Header(): React.ReactElement {
   React.useEffect((): void => {
     const header_in_animation: () => Promise<void> =
       async (): Promise<void> => {
-        let elements: NodeListOf<Element> = document.querySelectorAll(
+        let elements: NodeListOf<HTMLElement> = document.querySelectorAll(
           "#header .in_animation"
         );
 
         for (let i of elements) {
-          i.setAttribute("style", "opacity: 1; transform: translateY(0);");
+          i.style.opacity = "1";
+          i.style.transform = "translateY(0)";
           await sleep(100);
         }
       };
 
     const menu_events: () => void = (): void => {
-      let header_menu: Element | null =
+      let header_menu: HTMLElement | null =
         document.querySelector("#header_div .menu");
-      let header_menu_icon: Element | null = document.querySelector(
+      let header_menu_icon: HTMLElement | null = document.querySelector(
         "#header_div .menu_icon"
       );
-      let menu_div: Element | null = document.querySelector("#menu_div");
-      let menu_icon: Element | null = document.querySelector(
+      let menu_div: HTMLElement | null = document.querySelector("#menu_div");
+      let menu_icon: HTMLElement | null = document.querySelector(
         "#menu_div .menu_icon"
       );
-      let menu_choices: NodeListOf<Element> =
+      let menu_choices: NodeListOf<HTMLElement> =
         document.querySelectorAll("#menu_div .menu a");
 
       const menu_in: () => void = (): void => {
         if (menu_div) {
-          menu_div.setAttribute(
-            "style",
-            "transform: translateX(0px); box-shadow: -10px 0px 30px rgba(0, 0, 0, 0.7);"
-          );
+          menu_div.style.transform = "translateX(0px)";
+          menu_div.style.boxShadow = "-10px 0px 30px rgba(0, 0, 0, 0.7)";
         }
       };
 
       const menu_out: () => void = (): void => {
         if (menu_div) {
-          menu_div.setAttribute(
-            "style",
-            "transform: translateX(clamp(0px, 100%, 400px)); box-shadow: none;"
-          );
+          menu_div.style.transform = "translateX(clamp(0px, 100%, 400px))";
+          menu_div.style.boxShadow = "none";
         }
       };
 
       const resize_events: () => void = (): void => {
         if (window.innerWidth < 900) {
           if (header_menu) {
-            header_menu.setAttribute("style", "display: none;");
+            header_menu.style.display = "none";
           }
           if (header_menu_icon) {
-            header_menu_icon.setAttribute("style", "display: block;");
+            header_menu_icon.style.display = "block";
           }
         } else {
           if (header_menu) {
-            header_menu.setAttribute("style", "display: block;");
+            header_menu.style.display = "block";
           }
           if (header_menu_icon) {
-            header_menu_icon.setAttribute("style", "display: none;");
+            header_menu_icon.style.display = "none";
           }
           menu_out();
         }
@@ -77,7 +74,7 @@ function Header(): React.ReactElement {
         menu_icon.addEventListener("click", menu_out);
       }
 
-      menu_choices.forEach((el: Element): void => {
+      menu_choices.forEach((el: HTMLElement): void => {
         el.addEventListener("click", menu_out);
       });
 
@@ -91,9 +88,10 @@ function Header(): React.ReactElement {
       let last_scroll_top: number = 0;
 
       const scroll_event: () => void = (): void => {
-        const headerDiv: Element | null = document.querySelector("#header_div");
-        const header: Element | null = document.querySelector("#header");
-        const homeSectionHi: Element | null =
+        const headerDiv: HTMLElement | null =
+          document.querySelector("#header_div");
+        const header: HTMLElement | null = document.querySelector("#header");
+        const homeSectionHi: HTMLElement | null =
           document.querySelector("#home_section .hi");
 
         if (
@@ -102,37 +100,27 @@ function Header(): React.ReactElement {
           headerDiv.getBoundingClientRect().bottom <
             homeSectionHi.getBoundingClientRect().top
         ) {
-          headerDiv.setAttribute(
-            "style",
-            "height: 100px; box-shadow: none; pointer-events: none;"
-          );
+          headerDiv.style.height = "100px";
+          headerDiv.style.boxShadow = "none";
+          headerDiv.style.pointerEvents = "none";
           if (header) {
-            header.setAttribute(
-              "style",
-              "background-color: rgba(16, 29, 48, 0); backdrop-filter: none; -webkit-backdrop-filter: none;"
-            );
+            header.style.backdropFilter = "none";
           }
           header_detached = false;
         } else {
           if (headerDiv) {
-            headerDiv.setAttribute(
-              "style",
-              "height: 70px; box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.7); pointer-events: all;"
-            );
+            headerDiv.style.height = "70px";
+            headerDiv.style.boxShadow = "0px 5px 30px rgba(0, 0, 0, 0.7)";
+            headerDiv.style.pointerEvents = "all";
           }
 
           if (header) {
             if (navigator.userAgent.indexOf("Firefox") > 0) {
-              header.setAttribute(
-                "style",
-                "backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); background-color: var(--dark_blue)"
-              );
+              header.style.backgroundColor = "var(--dark_blue)";
             } else {
-              header.setAttribute(
-                "style",
-                "backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); background-color: var(--fade_dark_blue)"
-              );
+              header.style.backgroundColor = "var(--fade_dark_blue)";
             }
+            header.style.backdropFilter = "blur(8px)";
           }
           header_detached = true;
         }
@@ -143,21 +131,20 @@ function Header(): React.ReactElement {
         let new_last_scroll_top: number =
           window.scrollY || document.documentElement.scrollTop;
 
-        const headerDiv: Element | null = document.querySelector("#header_div");
+        const headerDiv: HTMLElement | null =
+          document.querySelector("#header_div");
 
         if (headerDiv) {
           if (new_last_scroll_top > last_scroll_top) {
             if (header_detached) {
-              headerDiv.setAttribute("style", "top: -110px; box-shadow: none;");
+              headerDiv.style.top = "-73px";
+              headerDiv.style.boxShadow = "none";
             }
           } else {
-            headerDiv.setAttribute("style", "top: 0px;");
+            headerDiv.style.top = "0px";
 
             if (header_detached) {
-              headerDiv.setAttribute(
-                "style",
-                "box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.7);"
-              );
+              headerDiv.style.boxShadow = "0px 5px 20px rgba(0, 0, 0, 0.8)";
             }
           }
         }

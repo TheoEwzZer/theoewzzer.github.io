@@ -30,7 +30,7 @@ function Projects(): React.ReactElement {
 
   let sort_by: string = "Date";
   let done: Boolean[] = [];
-  let elements: NodeListOf<Element> = document.querySelectorAll(
+  let elements: NodeListOf<HTMLElement> = document.querySelectorAll(
     "#projects_section .in_animation"
   );
 
@@ -40,10 +40,8 @@ function Projects(): React.ReactElement {
         if (elements[i].classList.contains("other_project")) {
           await sleep(100);
         }
-        elements[i].setAttribute(
-          "style",
-          "opacity: 1; transform: translateY(0);"
-        );
+        elements[i].style.opacity = "1";
+        elements[i].style.transform = "translateY(0)";
         done[i] = true;
         await sleep(300);
       }
@@ -87,7 +85,7 @@ function Projects(): React.ReactElement {
           project_date.charAt(0).toUpperCase() + project_date.slice(1);
       }
       if (window.innerWidth < 780) {
-        const projectsContent: Element | null = document.querySelector(
+        const projectsContent: HTMLElement | null = document.querySelector(
           "#projects_section .projects_content"
         );
         if (projectsContent != null) {
@@ -135,7 +133,7 @@ function Projects(): React.ReactElement {
         for (let tag of project.tags)
           tags += `<a href="${tag.url}" target="_blank">${tag.name}</a>`;
 
-        const projectsContent: Element | null = document.querySelector(
+        const projectsContent: HTMLElement | null = document.querySelector(
           "#projects_section .projects_content"
         );
 
@@ -199,7 +197,7 @@ function Projects(): React.ReactElement {
       } else {
         for (let tag of project.tags) tags += `<span>${tag.name}</span>`;
 
-        const otherProjectsContent: Element | null = document.querySelector(
+        const otherProjectsContent: HTMLElement | null = document.querySelector(
           "#projects_section .other_projects_content"
         );
 
@@ -251,13 +249,13 @@ function Projects(): React.ReactElement {
 
   const generate: (data: IProjects) => void = (data: IProjects): void => {
     if (data) {
-      const projectsContent: Element | null = document.querySelector(
+      const projectsContent: HTMLElement | null = document.querySelector(
         "#projects_section .projects_content"
       );
       if (projectsContent != null) {
         projectsContent.innerHTML = "";
       }
-      const otherProjectsContent: Element | null = document.querySelector(
+      const otherProjectsContent: HTMLElement | null = document.querySelector(
         "#projects_section .other_projects_content"
       );
       if (otherProjectsContent != null) {

@@ -52,10 +52,10 @@ function Skills(): React.ReactElement {
 
   React.useEffect((): void => {
     const events: () => void = (): void => {
-      let categories: NodeListOf<Element> = document.querySelectorAll(
+      let categories: NodeListOf<HTMLElement> = document.querySelectorAll(
         "#skills_section .box .menu .category"
       );
-      let skillsLists: NodeListOf<Element> = document.querySelectorAll(
+      let skillsLists: NodeListOf<HTMLElement> = document.querySelectorAll(
         "#skills_section .box .box_content .skills_list"
       );
 
@@ -69,7 +69,9 @@ function Skills(): React.ReactElement {
     };
 
     if (data) {
-      let box: Element | null = document.querySelector("#skills_section .box");
+      let box: HTMLElement | null = document.querySelector(
+        "#skills_section .box"
+      );
       if (box != null) {
         box.innerHTML = "";
       }
