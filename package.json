@@ -17,6 +17,7 @@
     "tsparticles": "^2.10.1",
     "typescript": "^4.9.5"
   },
+  "homepage": "https://theoewzzer.github.io/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
