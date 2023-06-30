@@ -192,6 +192,11 @@ function Header(): React.ReactElement {
                     Compétences
                   </a>
                 </li>
+                <li className="experience in_animation">
+                  <a className="not_button" href="#experience">
+                    Experiences
+                  </a>
+                </li>
                 <li className="contact in_animation">
                   <a className="button" href="#contact">
                     <p>Me contacter</p>
@@ -250,6 +255,11 @@ function Header(): React.ReactElement {
             <li className="skills">
               <a className="not_button" href="#skills">
                 Compétences
+              </a>
+            </li>
+            <li className="experience in_animation">
+              <a className="not_button" href="#experience">
+                Experiences
               </a>
             </li>
             <li className="contact">
