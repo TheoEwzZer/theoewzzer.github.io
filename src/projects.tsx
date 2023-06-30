@@ -239,13 +239,13 @@ function Projects(): React.ReactElement {
       const projectsContent: HTMLElement | null = document.querySelector(
         "#projects_section .projects_content"
       );
-      if (projectsContent != null) {
+      if (projectsContent) {
         projectsContent.innerHTML = "";
       }
       const otherProjectsContent: HTMLElement | null = document.querySelector(
         "#projects_section .other_projects_content"
       );
-      if (otherProjectsContent != null) {
+      if (otherProjectsContent) {
         otherProjectsContent.innerHTML = "";
       }
       let inverted: boolean = true;
@@ -297,7 +297,7 @@ function Projects(): React.ReactElement {
   };
 
   let prev_width: number = window.innerWidth;
-  if (data !== null) {
+  if (data) {
     generate(data);
   }
 
@@ -306,7 +306,7 @@ function Projects(): React.ReactElement {
       (prev_width >= 780 && window.innerWidth <= 780) ||
       (prev_width <= 780 && window.innerWidth >= 780)
     ) {
-      if (data !== null) {
+      if (data) {
         generate(data);
       }
       prev_width = window.innerWidth;
@@ -318,7 +318,7 @@ function Projects(): React.ReactElement {
     .forEach((el: Element): void => {
       el.addEventListener("click", (): void => {
         sort_by = el.innerHTML;
-        if (data !== null) {
+        if (data) {
           generate(data);
         }
 

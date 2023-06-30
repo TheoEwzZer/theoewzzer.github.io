@@ -72,7 +72,7 @@ function Skills(): React.ReactElement {
       let box: HTMLElement | null = document.querySelector(
         "#skills_section .box"
       );
-      if (box != null) {
+      if (box) {
         box.innerHTML = "";
       }
 
@@ -97,14 +97,14 @@ function Skills(): React.ReactElement {
           boxContent += `<div class="skills_list">${skills}</div>`;
         }
 
-        if (box != null) {
+        if (box) {
           box.innerHTML = `<div class="menu">${menu}</div><div class="box_content">${boxContent}</div>`;
         }
 
         events();
       } else {
         for (let category of data.skills_categories) {
-          if (box != null) {
+          if (box) {
             box.innerHTML += `<div class="category_title">${category.name}</div>`;
           }
 
@@ -119,7 +119,7 @@ function Skills(): React.ReactElement {
             </a>`;
           }
 
-          if (box != null) {
+          if (box) {
             box.innerHTML += `<div class="box_content"><div class="skills_list">${skills}</div></div>`;
           }
         }
