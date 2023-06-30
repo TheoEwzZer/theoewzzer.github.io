@@ -1,7 +1,8 @@
 {
   "experience": [
     {
-      "date": 2023,
+      "start_date": "2023-07-10",
+      "end_date": "2023-12-29",
       "type": "Développeur stagiaire",
       "title": "Enedis",
       "description": "Développement d'outils au Laboratoire d'Intelligence Artificielle de Enedis afin de faciliter les interventions sur le réseau.",
@@ -18,7 +19,8 @@
       "image": "images/experience/Enedis.webp"
     },
     {
-      "date": 2022,
+      "start_date": "2022-10-04",
+      "end_date": "2027-07-01",
       "type": "Étudiant à Epitech",
       "title": "Epitech",
       "description": "En tant qu'étudiant à Epitech, j'ai l'opportunité de suivre une formation d'excellence dans le domaine de l'informatique. L'école me permet de développer des compétences solides en programmation et en développement logiciel.",
