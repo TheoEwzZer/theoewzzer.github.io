@@ -9,6 +9,7 @@ import Header from "./header";
 import LCP from "./lcp";
 import Safari from "./safari";
 import Loading from "./loading";
+import Experience from "./experience";
 
 function App(): React.ReactElement {
   return (
@@ -21,6 +22,7 @@ function App(): React.ReactElement {
       <About />
       <Projects />
       <Skills />
+      <Experience />
       <Contact />
       <Footer />
     </>
