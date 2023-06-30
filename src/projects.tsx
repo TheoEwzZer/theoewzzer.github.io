@@ -355,6 +355,7 @@ function Projects(): React.ReactElement {
           <div className="other_projects_content"></div>
         </div>
       </section>
+      <div className="section_end projects_end"></div>
     </>
   );
 }

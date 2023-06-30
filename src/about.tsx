@@ -44,6 +44,7 @@ function About(): React.ReactElement {
           </div>
         </div>
       </section>
+      <div className="section_end about_end"></div>
     </>
   );
 }

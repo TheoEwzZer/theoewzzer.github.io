@@ -140,6 +140,7 @@ function Skills(): React.ReactElement {
           </div>
         </div>
       </section>
+      <div className="section_end skills_end"></div>
     </>
   );
 }
