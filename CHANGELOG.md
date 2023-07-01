@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.2](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v1.2.1...v1.2.2) (2023-07-01)
+
+
+### 🔧 Other
+
+* add html file for Google site verification ([50da807](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/50da80730cf1d6eae304cdce253709d7ff53d681))
+* Improve SEO by adding meta tags in index.html ([d3101b1](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/d3101b1d819702b3a3617265fea611b37c118c64))
+
 ## [1.2.1](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v1.2.0...v1.2.1) (2023-07-01)
 
 
