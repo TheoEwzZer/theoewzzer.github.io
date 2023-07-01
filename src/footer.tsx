@@ -23,7 +23,7 @@ function Footer(): React.ReactElement {
           <div className="footer_content">
             <a
               className="footer_licence"
-              href="https://github.com/TheoEwzZer/theoewzzer.github.io/blob/main/LICENSE.md"
+              href="https://github.com/TheoEwzZer/theoewzzer.github.io/blob/main/LICENSE"
               target="_blank"
               rel="noreferrer"
             >
