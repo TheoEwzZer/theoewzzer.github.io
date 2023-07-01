@@ -22,7 +22,7 @@ jobs:
             [
               {"type":"feat","section":"✨ Features","hidden":false},
               {"type":"change","section":"✨ Features","hidden":false},
-              {"type":"deprecate","section":"🗑️ Changes","hidden":false},
+              {"type":"deprecate","section":"🔥 Changes","hidden":false},
               {"type":"remove","section":"🔥 Changes","hidden":false},
               {"type":"fix","section":"🐛 Bug Fixes","hidden":false},
               {"type":"revert","section":"🐛 Bug Fixes","hidden":false},
