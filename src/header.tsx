@@ -179,7 +179,7 @@ function Header(): React.ReactElement {
                 </li>
                 <li className="about in_animation">
                   <a className="not_button" href="#about">
-                    A propos
+                    À propos
                   </a>
                 </li>
                 <li className="projects in_animation">
@@ -244,7 +244,7 @@ function Header(): React.ReactElement {
             </li>
             <li className="about">
               <a className="not_button" href="#about">
-                A propos
+                À propos
               </a>
             </li>
             <li className="projects">
