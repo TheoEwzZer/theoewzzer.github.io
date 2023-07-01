@@ -28,8 +28,7 @@ function About(): React.ReactElement {
               <br />
               I've had the opportunity to work on many exciting projects during
               my during my studies, particularly in artificial intelligence,
-              video game game development and other areas of computer science.
-              computer science{" "}
+              video game development and other areas of computer science{" "}
               <i>
                 (see the{" "}
                 <a className="link" href="#projects">
