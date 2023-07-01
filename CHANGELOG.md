@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.3](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v1.2.2...v1.2.3) (2023-07-01)
+
+
+### 🔧 Other
+
+* add structured data markup for Théo Fabiano Portfolio ([a466604](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/a466604a2c21bfd0fb9dbc7412281e9d91ca9889))
+
+
+### 🐛 Bug Fixes
+
+* change name element from span to h1 for better semantic markup ([9e92b83](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/9e92b83a1ab51c7156295388080c3eb9410898ac))
+
 ## [1.2.2](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v1.2.1...v1.2.2) (2023-07-01)
 
 
