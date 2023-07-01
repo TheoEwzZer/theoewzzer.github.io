@@ -9,7 +9,8 @@ interface Data {
 }
 
 interface Job {
-  date: number;
+  start_date: string;
+  end_date: string;
   type: string;
   link: string;
   title: string;
@@ -26,6 +27,7 @@ interface Tag {
 function Experience(): React.ReactElement {
   const [data, setData] = React.useState<Data | null>(null);
 
+  const current_date: Date = new Date();
   let done: Boolean[] = [];
   let elements: NodeListOf<HTMLElement> = document.querySelectorAll(
     "#experience_section .in_animation"
@@ -68,6 +70,30 @@ function Experience(): React.ReactElement {
   ): void => {
     if (data) {
       let tags: string = "";
+      let job_start_date: string = new Date(job.start_date).toLocaleDateString(
+        "fr-FR",
+        {
+          year: "numeric",
+          month: "long",
+        }
+      );
+      job_start_date =
+        job_start_date.charAt(0).toUpperCase() + job_start_date.slice(1);
+      let job_end_date: string = new Date(job.end_date).toLocaleDateString(
+        "fr-FR",
+        {
+          year: "numeric",
+          month: "long",
+        }
+      );
+      job_end_date =
+        job_end_date.charAt(0).toUpperCase() + job_end_date.slice(1);
+
+      let job_date: string = "De " + job_start_date + " à " + job_end_date;
+
+      if (new Date(job.end_date) > current_date) {
+        job_date = "Depuis " + job_start_date;
+      }
 
       for (let tag of job.tags)
         tags += `<a href="${tag.url}" target="_blank">${tag.name}</a>`;
@@ -78,7 +104,7 @@ function Experience(): React.ReactElement {
       <div class="in_animation job ${inverted ? "inverted" : ""}">
         <div class="job_text">
           <div class="type">
-            <span>${job.date}</span>
+            <span>${job_date}</span>
             <span>•</span>
             <span>${job.type}</span>
           </div>
@@ -110,7 +136,7 @@ function Experience(): React.ReactElement {
 						<div class="type">
 							<span>${job.type}</span>
 							<span>•</span>
-							<span>${job.date}</span>
+							<span>${job_date}</span>
 						</div>
 						<a class="job_title" href="${job.link}" target="_blank">${job.title}</a>
 						<div class="text"><p>${job.description}</p></div>
@@ -129,7 +155,17 @@ function Experience(): React.ReactElement {
       let inverted: boolean = data.experience.length % 2 === 0;
 
       data.experience.sort((a: Job, b: Job): number => {
-        return b.date - a.date;
+        let aDate: Date = new Date(a.end_date);
+        let bDate: Date = new Date(b.end_date);
+        if (
+          new Date(a.end_date) > current_date &&
+          new Date(b.end_date) > current_date
+        ) {
+          aDate = new Date(a.start_date);
+          bDate = new Date(b.start_date);
+          return Number(bDate) - Number(aDate);
+        }
+        return Number(bDate) - Number(aDate);
       });
 
       for (let job of data.experience) {
