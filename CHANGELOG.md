@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.3](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v1.1.2...v1.1.3) (2023-07-01)
+
+
+### 🔧 Other
+
+* update footer to display the version number ([ae27db0](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/ae27db0297fccd1c17783e29e71864ea90bdba99))
+
+
+### 🐛 Bug Fixes
+
+* update license link to remove file extension ([652f5e1](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/652f5e16b6738b0ba4c49efd9256f886b5fa3611))
+
 ## [1.1.2](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v1.1.1...v1.1.2) (2023-07-01)
 
 
