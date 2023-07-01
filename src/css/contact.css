@@ -70,6 +70,11 @@
   white-space: nowrap;
 }
 
+#contact_section .social_link .social_text span a {
+  text-decoration: none;
+  color: var(--black_text);
+}
+
 @media screen and (max-width: 500px) {
   #contact_section .social_link:hover {
     padding-right: 10px;
