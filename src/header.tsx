@@ -257,7 +257,7 @@ function Header(): React.ReactElement {
                 Skills
               </a>
             </li>
-            <li className="experience in_animation">
+            <li className="experience">
               <a className="not_button" href="#experience">
                 Experiences
               </a>
