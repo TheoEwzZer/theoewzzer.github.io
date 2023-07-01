@@ -62,7 +62,13 @@ function Contact(): React.ReactElement {
               </a>
             </div>
             <div className="social_line">
-              <div className="social_link" style={mail}>
+              <a
+                className="social_link"
+                href="mailto: theo.fabiano@epitech.eu"
+                target="_blank"
+                style={mail}
+                rel="noreferrer"
+              >
                 <img
                   src="/shapes/contact/Mail.svg"
                   alt="mail"
@@ -70,13 +76,9 @@ function Contact(): React.ReactElement {
                   height="50px"
                 />
                 <div className="social_text">
-                  <span>
-                    <a href="mailto:theo.fabiano@epitech.eu">
-                      theo.fabiano@epitech.eu
-                    </a>
-                  </span>
+                  <span>theo.fabiano@epitech.eu</span>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
         </div>
