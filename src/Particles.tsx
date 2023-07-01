@@ -16,11 +16,6 @@ function Particle(): React.ReactElement {
       id="tsparticles"
       init={particlesInit}
       options={{
-        background: {
-          color: {
-            value: "#000000",
-          },
-        },
         fpsLimit: 120,
         interactivity: {
           events: {
