@@ -3,7 +3,11 @@ on:
     branches:
       - main
 name: release-please
-permissions: {}
+
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   release-please:
     permissions:
