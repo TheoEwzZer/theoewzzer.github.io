@@ -7,8 +7,7 @@
     "react-dom": "^18.2.0",
     "react-particles": "^2.10.1",
     "react-scripts": "5.0.1",
-    "tsparticles": "^2.10.1",
-    "typescript": "^5.1.6"
+    "tsparticles": "^2.10.1"
   },
   "homepage": "https://theofabiano.me",
   "scripts": {
@@ -41,6 +40,7 @@
     "@types/node": "^20.3.3",
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",
-    "gh-pages": "^5.0.0"
+    "gh-pages": "^5.0.0",
+    "typescript": "^4.9.5"
   }
 }
