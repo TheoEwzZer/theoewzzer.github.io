@@ -20,8 +20,8 @@ function Safari(): React.ReactElement {
   return (
     <div id="safari_warning">
       <p>
-        Vous utilisez Safari. Ce site n'est pas optimisé pour ce navigateur.
-        Veuillez utiliser un autre navigateur comme Chrome ou Firefox.
+        You are using Safari. This site is not optimized for this browser.
+        Please use another browser such as Chrome or Firefox.
       </p>
     </div>
   );

@@ -11,32 +11,31 @@ function About(): React.ReactElement {
       </a>
       <section className="section" id="about_section">
         <div className="content">
-          <span className="section_title">Qui suis-je ?</span>
+          <span className="section_title">Who am I?</span>
           <div className="about_content">
             <p className="p_1">
-              Je suis un étudiant en informatique passionné par le
-              développement. Actuellement, je suis étudiant à Epitech depuis
-              2022 où j'ai pu acquérir des compétences solides en programmation
-              en langage C et en gestion de projets.
+              I'm a computer science student with a passion for development. I
+              have been a student at Epitech since 2022, where I acquired solid
+              skills in programming and project management.
               <br />
               <br />
-              Au cours de mes études, j'ai développé une passion pour la
-              résolution de problèmes complexes. J'aime relever des défis et
-              explorer de nouvelles approches pour créer des solutions
-              innovantes. Je suis également curieux et toujours en quête de
-              nouvelles connaissances pour améliorer mes compétences.
+              During my studies, I developed a passion for solving complex
+              solving complex problems. I enjoy taking on challenges and explore
+              new approaches to create innovative solutions. innovative
+              solutions. I'm also curious and always on the lookout for new new
+              knowledge to improve my skills.
               <br />
               <br />
-              J'ai eu l'occasion de réaliser de nombreux projets passionnants au
-              cours de mes études, notamment en intelligence artificielle, dans
-              le développement de jeux vidéo et dans d'autres domaines de
-              l'informatique{" "}
+              I've had the opportunity to work on many exciting projects during
+              my during my studies, particularly in artificial intelligence,
+              video game game development and other areas of computer science.
+              computer science{" "}
               <i>
-                (Veuillez consulter ma partie{" "}
+                (see the{" "}
                 <a className="link" href="#projects">
-                  projet
+                  project
                 </a>{" "}
-                sur ce site pour plus de détails)
+                part of the site)
               </i>
               . <br />
               <br />

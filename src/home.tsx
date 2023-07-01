@@ -71,10 +71,10 @@ function Home(): React.ReactElement {
           <Particles />
         </div>
         <div className="content">
-          <span className="hi in_animation">Je m'appelle</span>
+          <span className="hi in_animation">Hi, my name is</span>
           <span className="name in_animation">Théo Fabiano.</span>
           <p className="bio in_animation">
-            Je suis un étudiant français de {age} ans à l'école d'informatique
+            I'm an {age}-year-old French student at the{" "}
             <a
               className="link"
               href="https://www.epitech.eu/"
@@ -83,10 +83,11 @@ function Home(): React.ReactElement {
             >
               Epitech Technology
             </a>
+            computer school.
           </p>
           <div className="home_button in_animation">
             <a className="button" href="#about">
-              <p>Commencer</p>
+              <p>Get Started</p>
               <svg
                 className="button_arrow"
                 xmlns="http://www.w3.org/2000/svg"

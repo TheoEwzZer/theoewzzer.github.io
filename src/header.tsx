@@ -174,22 +174,22 @@ function Header(): React.ReactElement {
               <ol>
                 <li className="home in_animation">
                   <a className="not_button" href="#home">
-                    Accueil
+                    Home
                   </a>
                 </li>
                 <li className="about in_animation">
                   <a className="not_button" href="#about">
-                    A propos
+                    About
                   </a>
                 </li>
                 <li className="projects in_animation">
                   <a className="not_button" href="#projects">
-                    Projets
+                    Projects
                   </a>
                 </li>
                 <li className="skills in_animation">
                   <a className="not_button" href="#skills">
-                    Compétences
+                    Skills
                   </a>
                 </li>
                 <li className="experience in_animation">
@@ -199,7 +199,7 @@ function Header(): React.ReactElement {
                 </li>
                 <li className="contact in_animation">
                   <a className="button" href="#contact">
-                    <p>Me contacter</p>
+                    <p>Contact me</p>
                     <svg
                       className="button_arrow"
                       xmlns="http://www.w3.org/2000/svg"
@@ -239,22 +239,22 @@ function Header(): React.ReactElement {
           <ol>
             <li className="home">
               <a className="not_button" href="#home">
-                Accueil
+                Home
               </a>
             </li>
             <li className="about">
               <a className="not_button" href="#about">
-                A propos
+                About
               </a>
             </li>
             <li className="projects">
               <a className="not_button" href="#projects">
-                Projets
+                Projects
               </a>
             </li>
             <li className="skills">
               <a className="not_button" href="#skills">
-                Compétences
+                Skills
               </a>
             </li>
             <li className="experience in_animation">
@@ -264,7 +264,7 @@ function Header(): React.ReactElement {
             </li>
             <li className="contact">
               <a className="button" href="#contact">
-                <p>Me contacter</p>
+                <p>Contact me</p>
                 <svg
                   className="button_arrow"
                   xmlns="http://www.w3.org/2000/svg"

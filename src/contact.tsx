@@ -21,7 +21,7 @@ function Contact(): React.ReactElement {
       </a>
       <section className="section" id="contact_section">
         <div className="content leaning">
-          <span className="section_title">Comment me contacter ?</span>
+          <span className="section_title">How to contact me?</span>
           <div className="contact_content">
             <div className="social_line">
               <a

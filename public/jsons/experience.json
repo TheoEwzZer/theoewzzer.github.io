@@ -3,9 +3,9 @@
     {
       "start_date": "2023-07-10",
       "end_date": "2023-12-29",
-      "type": "Développeur stagiaire",
+      "type": "Intern Developer",
       "title": "Enedis",
-      "description": "Développement d'outils au Laboratoire d'Intelligence Artificielle de Enedis afin de faciliter les interventions sur le réseau.",
+      "description": "Development of tools at the Enedis Artificial Intelligence Laboratory to facilitate network interventions.",
       "tags": [
         {
           "name": "Python",
@@ -21,18 +21,18 @@
     {
       "start_date": "2022-10-04",
       "end_date": "2027-07-01",
-      "type": "Étudiant à Epitech",
+      "type": "Student at Epitech",
       "title": "Epitech",
-      "description": "En tant qu'étudiant à Epitech, j'ai l'opportunité de suivre une formation d'excellence dans le domaine de l'informatique. L'école me permet de développer des compétences solides en programmation et en développement logiciel.",
+      "description": "As a student at Epitech, I have the opportunity to follow a course of excellence in the field of computer science. The school enables me to develop solid skills in programming and software development.",
       "tags": [
         {
           "name": "C",
-          "url": "https://fr.wikipedia.org/wiki/C_(langage) "
+          "url": "https://en.wikipedia.org/wiki/C_(langage) "
         },
         { "name": "Python", "url": "https://www.python.org/" },
         {
           "name": "JavaScript",
-          "url": "https://fr.wikipedia.org/wiki/JavaScript"
+          "url": "https://en.wikipedia.org/wiki/JavaScript"
         },
         { "name": "Docker", "url": "https://www.docker.com/" },
         {

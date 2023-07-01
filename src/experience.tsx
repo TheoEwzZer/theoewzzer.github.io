@@ -71,7 +71,7 @@ function Experience(): React.ReactElement {
     if (data) {
       let tags: string = "";
       let job_start_date: string = new Date(job.start_date).toLocaleDateString(
-        "fr-FR",
+        "en-US",
         {
           year: "numeric",
           month: "long",
@@ -80,7 +80,7 @@ function Experience(): React.ReactElement {
       job_start_date =
         job_start_date.charAt(0).toUpperCase() + job_start_date.slice(1);
       let job_end_date: string = new Date(job.end_date).toLocaleDateString(
-        "fr-FR",
+        "en-US",
         {
           year: "numeric",
           month: "long",
@@ -89,10 +89,10 @@ function Experience(): React.ReactElement {
       job_end_date =
         job_end_date.charAt(0).toUpperCase() + job_end_date.slice(1);
 
-      let job_date: string = "De " + job_start_date + " à " + job_end_date;
+      let job_date: string = "From " + job_start_date + " to " + job_end_date;
 
       if (new Date(job.end_date) > current_date) {
-        job_date = "Depuis " + job_start_date;
+        job_date = "Since " + job_start_date;
       }
 
       for (let tag of job.tags)
@@ -208,7 +208,7 @@ function Experience(): React.ReactElement {
       </a>
       <section className="section" id="experience_section">
         <div className="content leaning">
-          <span className="section_title">Où j'ai travaillé</span>
+          <span className="section_title">Where I've Worked</span>
           <div className="experience_content"></div>
         </div>
       </section>

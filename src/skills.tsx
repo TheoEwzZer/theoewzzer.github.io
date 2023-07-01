@@ -134,7 +134,7 @@ function Skills(): React.ReactElement {
       </a>
       <section className="section" id="skills_section">
         <div className="content leaning">
-          <span className="section_title">Quelles sont mes compétences ?</span>
+          <span className="section_title">What are my Skills?</span>
           <div className="skills_content">
             <div className="box"></div>
           </div>

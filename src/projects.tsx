@@ -77,7 +77,7 @@ function Projects(): React.ReactElement {
       let tags: string = "";
       let project_date: any = project.date;
       if (project.date.length > 4) {
-        project_date = new Date(project.date).toLocaleDateString("fr-FR", {
+        project_date = new Date(project.date).toLocaleDateString("en-US", {
           year: "numeric",
           month: "long",
         });
@@ -120,7 +120,7 @@ function Projects(): React.ReactElement {
               : `
 								<a class="github" href="${project.links[1]}" target="_blank">
 									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.05 20.31"><g><path d="M7.26 16.34c-4.11 1.23-4.11-2.06-5.76-2.47M13 18.81V15.62a2.78 2.78 0 0 0-.77-2.15c2.59-.28 5.3-1.26 5.3-5.76a4.46 4.46 0 0 0-1.23-3.08 4.18 4.18 0 0 0-.08-3.11s-1-.29-3.22 1.22a11 11 0 0 0-5.76 0C5 1.23 4 1.52 4 1.52A4.18 4.18 0 0 0 4 4.63 4.48 4.48 0 0 0 2.73 7.74c0 4.46 2.72 5.44 5.31 5.76a2.8 2.8 0 0 0-.78 2.12v3.19"/></g></svg>
-									<span class="bubble">Voir le code</span>
+									<span class="bubble">See the code</span>
 								</a>
 								`) +
             (project.links[2] === "none"
@@ -128,7 +128,7 @@ function Projects(): React.ReactElement {
               : `
 								<a class="test" href="${project.links[2]}" target="_blank">
 									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.09 18.64"><g><path d="M14.55 7.52 4.62 1.78A2.08 2.08 0 0 0 1.5 3.58V15.05a2.08 2.08 0 0 0 3.12 1.8l9.93-5.73A2.08 2.08 0 0 0 14.55 7.52Z"/></g></svg>
-									<span class="bubble">Tester le programme</span>
+									<span class="bubble">Test the program</span>
 								</a>
 								`) +
             `
@@ -171,7 +171,7 @@ function Projects(): React.ReactElement {
               : `
 								<a class="github" href="${project.links[1]}" target="_blank">
 									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.05 20.31"><g><path d="M7.26 16.34c-4.11 1.23-4.11-2.06-5.76-2.47M13 18.81V15.62a2.78 2.78 0 0 0-.77-2.15c2.59-.28 5.3-1.26 5.3-5.76a4.46 4.46 0 0 0-1.23-3.08 4.18 4.18 0 0 0-.08-3.11s-1-.29-3.22 1.22a11 11 0 0 0-5.76 0C5 1.23 4 1.52 4 1.52A4.18 4.18 0 0 0 4 4.63 4.48 4.48 0 0 0 2.73 7.74c0 4.46 2.72 5.44 5.31 5.76a2.8 2.8 0 0 0-.78 2.12v3.19"/></g></svg>
-									<span class="bubble">Voir le code</span>
+									<span class="bubble">See the code</span>
 								</a>
 								`) +
             (project.links[2] === "none"
@@ -179,7 +179,7 @@ function Projects(): React.ReactElement {
               : `
 								<a class="test" href="${project.links[2]}" target="_blank">
 									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.09 18.64"><g><path d="M14.55 7.52 4.62 1.78A2.08 2.08 0 0 0 1.5 3.58V15.05a2.08 2.08 0 0 0 3.12 1.8l9.93-5.73A2.08 2.08 0 0 0 14.55 7.52Z"/></g></svg>
-									<span class="bubble">Tester le programme</span>
+									<span class="bubble">Test the program</span>
 								</a>
 								`) +
             `
@@ -339,15 +339,15 @@ function Projects(): React.ReactElement {
       </a>
       <section className="section" id="projects_section">
         <div className="content leaning">
-          <span className="section_title">Quelques-uns de mes projets</span>
+          <span className="section_title">Some of my Projects</span>
           <div className="sort_choices">
-            <span className="label">Trier par</span>
+            <span className="label">Sort by</span>
             <div className="choice selected">Date</div>
-            <div className="choice">Personnel</div>
-            <div className="choice">École</div>
+            <div className="choice">Personal</div>
+            <div className="choice">School</div>
             <div className="choice">DevOps</div>
-            <div className="choice">IA</div>
-            <div className="choice">Jeux</div>
+            <div className="choice">AI</div>
+            <div className="choice">Games</div>
             <div className="choice">Simulations</div>
             <div className="choice">Web</div>
           </div>

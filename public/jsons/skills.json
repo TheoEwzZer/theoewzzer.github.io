@@ -1,17 +1,17 @@
 {
   "skills_categories": [
     {
-      "name": "Développement Logiciels",
+      "name": "Software Development",
       "skills": [
         {
           "name": "C",
           "logo": "/shapes/skills/C.svg",
-          "link": "https://fr.wikipedia.org/wiki/C_(langage)"
+          "link": "https://en.wikipedia.org/wiki/C_(programming_language)"
         },
         {
           "name": "C#",
           "logo": "/shapes/skills/C_sharp.svg",
-          "link": "https://fr.wikipedia.org/wiki/C_sharp"
+          "link": "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"
         },
         {
           "name": "Python",
@@ -26,12 +26,12 @@
         {
           "name": "Unix",
           "logo": "/shapes/skills/Unix.svg",
-          "link": "https://fr.wikipedia.org/wiki/Unix"
+          "link": "https://en.wikipedia.org/wiki/Unix"
         }
       ]
     },
     {
-      "name": "Graphismes informatiques",
+      "name": "Computer Graphics",
       "skills": [
         {
           "name": "Unity",
@@ -51,17 +51,17 @@
         {
           "name": "HTML",
           "logo": "/shapes/skills/Html.svg",
-          "link": "https://fr.wikipedia.org/wiki/HTML"
+          "link": "https://en.wikipedia.org/wiki/HTML"
         },
         {
           "name": "CSS",
           "logo": "/shapes/skills/Css.svg",
-          "link": "https://fr.wikipedia.org/wiki/CSS"
+          "link": "https://en.wikipedia.org/wiki/CSS"
         },
         {
           "name": "JavaScript",
           "logo": "/shapes/skills/JavaScript.svg",
-          "link": "https://fr.wikipedia.org/wiki/JavaScript"
+          "link": "https://en.wikipedia.org/wiki/JavaScript"
         },
         {
           "name": "TypeScript",
@@ -86,7 +86,7 @@
         {
           "name": "JavaScript",
           "logo": "/shapes/skills/JavaScript.svg",
-          "link": "https://fr.wikipedia.org/wiki/JavaScript"
+          "link": "https://en.wikipedia.org/wiki/JavaScript"
         },
         {
           "name": "TypeScript",
