@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.2.0](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v1.1.4...v1.2.0) (2023-07-01)
+
+
+### 🔧 Other
+
+* update texts to english for better internationalization ([cca8ff5](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/cca8ff5546f41381a1c4775dfe73339ebb61ebed))
+
+
+### ✨ Features
+
+* add new project "Portfolio" to the list of projects ([b35a4dc](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/b35a4dcb03a723dce16fec8a79f8b3c3856557cf))
+
+
+### 🔥 Changes
+
+* remove unused background color configuration ([db7ec8c](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/db7ec8c4edde2866256323567ae13962e7d74b58))
+
 ## [1.1.4](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v1.1.3...v1.1.4) (2023-07-01)
 
 
