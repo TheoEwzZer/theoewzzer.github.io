@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.2.1](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v1.2.0...v1.2.1) (2023-07-01)
+
+
+### ♻️ Polish
+
+* remove unnecessary CSS class 'in_animation' ([8a839a0](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/8a839a0bdb19240d6564621ab0508574ae750491))
+
+
+### 🐛 Bug Fixes
+
+* fix typo in FastAPI logo filename to match the actual filename ([16ad385](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/16ad3853495f68ba92165d94ca3f0a47042d7012))
+
+
+### 🔧 Other
+
+* fix typo in the about section to remove duplicate words ([2c98b0a](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/2c98b0ac2ffa6de863236f1a1fb5520600d93288))
+* refactor email link to improve accessibility ([f52c66e](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/f52c66ebcf8d1b08671efd04d95ec9d956ce9332))
+
 ## [1.2.0](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v1.1.4...v1.2.0) (2023-07-01)
 
 
