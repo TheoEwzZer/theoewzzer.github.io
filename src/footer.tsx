@@ -2,9 +2,11 @@ import React from "react";
 import "./css/properties.css";
 import "./css/style.css";
 import "./css/footer.css";
+import packageJson from "../package.json";
 
 function Footer(): React.ReactElement {
   const [currentYear, setCurrentYear] = React.useState<number>(0);
+  const version: string = packageJson.version;
 
   React.useEffect((): void => {
     const date: Date = new Date();
@@ -25,7 +27,9 @@ function Footer(): React.ReactElement {
               target="_blank"
               rel="noreferrer"
             >
-              <span>© {currentYear} Théo Fabiano</span>
+              <span>
+                Version {version} © {currentYear} Théo Fabiano
+              </span>
               <img
                 src="/shapes/license.svg"
                 alt="license"
