@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.4](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v1.1.3...v1.1.4) (2023-07-01)
+
+
+### 🔧 Other
+
+* add pull-request-title-pattern option ([4a04faf](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/4a04fafdba45854de66ab6c1ed29005f1812b217))
+
+
+### 🔥 Changes
+
+* remove unnecessary package-name field ([f7a4b34](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/f7a4b345aff47623589a321f9e15d3fba63ba990))
+
 ## [1.1.3](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v1.1.2...v1.1.3) (2023-07-01)
 
 
