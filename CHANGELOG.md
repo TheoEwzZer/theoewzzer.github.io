@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v1.1.0...v1.1.1) (2023-07-01)
+
+
+### Bug Fixes
+
+* fix tag creation and deletion logic ([0b32d34](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/0b32d34580b38c0f7baa8a409123ac95ebe3e22d))
+
 ## [1.1.0](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v1.0.2...v1.1.0) (2023-07-01)
 
 
