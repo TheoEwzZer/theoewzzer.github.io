@@ -72,7 +72,7 @@ function Home(): React.ReactElement {
         </div>
         <div className="content">
           <span className="hi in_animation">Hi, my name is</span>
-          <span className="name in_animation">Théo Fabiano.</span>
+          <h1 className="name in_animation">Théo Fabiano.</h1>
           <p className="bio in_animation">
             I'm an {age}-year-old French student at the{" "}
             <a
