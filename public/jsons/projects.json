@@ -408,6 +408,37 @@
       ],
       "image": "images/projects/corewar.png",
       "categories": ["School", "Simulations", "Games"]
+    },
+    {
+      "date": "2023-06",
+      "type": "Personal Project",
+      "title": "Portfolio",
+      "description": "This project is a website portfolio made to present my computer science projects. It is a one-page responsive website programmed with React, HTML, CSS, and TypeScript",
+      "tags": [
+        {
+          "name": "Typescript",
+          "url": "https://www.typescriptlang.org"
+        },
+        {
+          "name": "React",
+          "url": "https://react.dev"
+        },
+        {
+          "name": "HTML",
+          "url": "https://en.wikipedia.org/wiki/HTML"
+        },
+        {
+          "name": "CSS",
+          "url": "https://en.wikipedia.org/wiki/CSS"
+        }
+      ],
+      "links": [
+        "https://theofabiano.me",
+        "https://github.com/TheoEwzZer/theoewzzer.github.io",
+        "https://theofabiano.me"
+      ],
+      "image": "images/projects/portfolio.png",
+      "categories": ["Personal", "Web"]
     }
   ]
 }
