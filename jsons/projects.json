@@ -126,7 +126,11 @@
           "url": "https://en.wikipedia.org/wiki/Ncurses"
         }
       ],
-      "links": ["https://github.com/TheoEwzZer/sokoban", "none"],
+      "links": [
+        "https://github.com/TheoEwzZer/sokoban",
+        "https://github.com/TheoEwzZer/sokoban",
+        "none"
+      ],
       "image": "images/projects/Sokoban.png",
       "categories": ["School", "Games"]
     },
