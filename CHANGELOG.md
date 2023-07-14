@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.2.4](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v1.2.3...v1.2.4) (2023-07-10)
+
+
+### 🐛 Bug Fixes
+
+* remove unnecessary JSON-LD script from head section to improve page load speed and reduce clutter ([d263fa2](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/d263fa2acf5267213f62b80823e54cf02f5f27dc))
+
+
+### 🔧 Other
+
+* add typescript to ignore list in dependabot configuration ([7bf740e](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/7bf740e47f1e75cbbaecbc00a9c7b68378794e86))
+* bump @types/node from 20.3.3 to 20.4.1 ([1e93fc0](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/1e93fc0816f5066d3e4cc61979244fc3b34c7878))
+
 ## [1.2.3](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v1.2.2...v1.2.3) (2023-07-01)
 
 
