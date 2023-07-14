@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.2.5](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v1.2.4...v1.2.5) (2023-07-14)
+
+
+### 🐛 Bug Fixes
+
+* duplicate link to sokoban project in the links array to ensure redundancy and availability of the link ([8abe890](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/8abe8907e2d1fc5f782e8e01778f94678273993e))
+
+
+### 🔧 Other
+
+* bump @types/node from 20.4.1 to 20.4.2 ([fbf03c6](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/fbf03c6e14f922b35ad9ef349c604594ab705b74))
+* bump @types/react from 18.2.14 to 18.2.15 ([434b4da](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/434b4daf682c1a4f8682c17e194ba981ea74b397))
+* bump @types/react-dom from 18.2.6 to 18.2.7 ([693ac74](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/693ac74aa9e9cf9cb9d086d4311de7d30021e666))
+* bump semver from 6.3.0 to 6.3.1 ([a8596f8](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/a8596f8a7d3d2d3403a9060f36cc5500bb068136))
+* bump tsparticles from 2.10.1 to 2.11.0 ([0ff904b](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/0ff904b1f1948c781e0f38527c1617994d7ee450))
+
 ## [1.2.4](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v1.2.3...v1.2.4) (2023-07-10)
 
 
