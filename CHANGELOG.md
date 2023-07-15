@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.6](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v1.2.5...v1.2.6) (2023-07-15)
+
+
+### 🔧 Other
+
+* bump react-particles from 2.10.1 to 2.11.0 ([6d5841f](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/6d5841fe9a01f2de88677816cc355ddb5841e489))
+
 ## [1.2.5](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v1.2.4...v1.2.5) (2023-07-14)
 
 
