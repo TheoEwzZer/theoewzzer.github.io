@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.2.7](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v1.2.6...v1.2.7) (2023-07-16)
+
+
+### 🐛 Bug Fixes
+
+* add space after `Epitech Technology` link to improve readability ([eca1010](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/eca1010b023388989730ba5f72f2707721a26031))
+* update `type` field from `Student at Epitech` to `Student` ([9de0801](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/9de080134df9d4c2f060bf09e6c450677652a685))
+
+
+### ⚙️ Continuous Integrations
+
+* add file to automatically merge dependabot PRs ([650d79c](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/650d79c8a221e1ce5adbe3c8a1b7da62c5b42076))
+* change commit-message prefix from `chore` to `deps` ([a7feeed](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/a7feeed6809d28c1c239c9ed39c7738f3ede6b17))
+* update commit types to more descriptive sections ([dcc1bca](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/dcc1bca6edc927ae38caf23f3bb5503431eb7598))
+
 ## [1.2.6](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v1.2.5...v1.2.6) (2023-07-15)
 
 
