@@ -20,10 +20,9 @@ function About(): React.ReactElement {
               <br />
               <br />
               During my studies, I developed a passion for solving complex
-              solving complex problems. I enjoy taking on challenges and explore
-              new approaches to create innovative solutions. innovative
-              solutions. I'm also curious and always on the lookout for new new
-              knowledge to improve my skills.
+              problems. I enjoy taking on challenges and explore new approaches
+              to create innovative solutions. I'm also curious and always on the
+              lookout for new new knowledge to improve my skills.
               <br />
               <br />
               I've had the opportunity to work on many exciting projects during
