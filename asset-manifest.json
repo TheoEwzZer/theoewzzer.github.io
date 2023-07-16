@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.882dc2f7.css",
-    "main.js": "/static/js/main.80aeb0bb.js",
+    "main.js": "/static/js/main.a39a1bba.js",
     "static/media/Raleway-Medium.ttf": "/static/media/Raleway-Medium.1af9f1e9f3fd4766df83.ttf",
     "static/media/Raleway-SemiBold.ttf": "/static/media/Raleway-SemiBold.243af299ad3631bfc369.ttf",
     "static/media/Raleway-Bold.ttf": "/static/media/Raleway-Bold.d1a96e2aa6257c864d4d.ttf",
@@ -13,10 +13,10 @@
     "static/media/CalibreMedium.otf": "/static/media/CalibreMedium.284460eeb8ca28df9954.otf",
     "index.html": "/index.html",
     "main.882dc2f7.css.map": "/static/css/main.882dc2f7.css.map",
-    "main.80aeb0bb.js.map": "/static/js/main.80aeb0bb.js.map"
+    "main.a39a1bba.js.map": "/static/js/main.a39a1bba.js.map"
   },
   "entrypoints": [
     "static/css/main.882dc2f7.css",
-    "static/js/main.80aeb0bb.js"
+    "static/js/main.a39a1bba.js"
   ]
 }
