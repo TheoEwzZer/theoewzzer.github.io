@@ -1,5 +1,28 @@
 # Changelog
 
+## [1.3.0](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v1.2.7...v1.3.0) (2023-07-16)
+
+
+### ✨ Features
+
+* add condition to handle projects without images in featured ([8983f50](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/8983f507c4ab7830be7292477fa520797729d84a))
+
+
+### 🐛 Bug Fixes
+
+* correct conditional check for project image when set to `none` ([f90f290](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/f90f290761c2a1f1b6c7c058053615793cfa8904))
+* remove duplicate phrases in the `About` section ([2dd4719](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/2dd4719483a247284cb63aa965f98b34e6f9d68d))
+
+
+### ⚡️ Performance Improvements
+
+* replace `loadFull` with `loadSlim` from `tsparticles-slim` ([a6dcc1d](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/a6dcc1d27c815f8b7c426499a50ee4ae3256c111))
+
+
+### 📦 Dependencies
+
+* replace  `tsparticles` package with `tsparticles-slim` ([3b6b272](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/3b6b2720fe624435979283efb36c2084215d027c))
+
 ## [1.2.7](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v1.2.6...v1.2.7) (2023-07-16)
 
 
