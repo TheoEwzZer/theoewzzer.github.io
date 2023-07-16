@@ -137,11 +137,14 @@ function Projects(): React.ReactElement {
 						<div class="project_view">
 							<a ${is_safari() ? 'class="safari_fix"' : ""} href="${
               project.links[0]
-            }" target="_blank">
-								<img src="${
-                  project.image
-                }" alt="${project.title.toLowerCase()} image" width="1440px" height="810px"/>
-								` +
+            }" target="_blank"> ` +
+            (project.image !== "none"
+              ? ""
+              : `
+              <img src="${
+                project.image
+              }" alt="${project.title.toLowerCase()} image" width="1440px" height="810px"/>
+								`) +
             `
 							</a>
 						</div>
@@ -271,7 +274,7 @@ function Projects(): React.ReactElement {
         let featured;
 
         if (sort_by === "Date") {
-          featured = i < 10 && project.image !== "none";
+          featured = i < 10;
         } else {
           featured =
             Array.isArray(project.categories) &&
