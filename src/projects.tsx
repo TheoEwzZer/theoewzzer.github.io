@@ -138,7 +138,7 @@ function Projects(): React.ReactElement {
 							<a ${is_safari() ? 'class="safari_fix"' : ""} href="${
               project.links[0]
             }" target="_blank"> ` +
-            (project.image !== "none"
+            (project.image === "none"
               ? ""
               : `
               <img src="${
