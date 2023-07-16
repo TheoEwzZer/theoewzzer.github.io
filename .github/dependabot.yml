@@ -10,6 +10,6 @@ updates:
     ignore:
       - dependency-name: "typescript"
     commit-message:
-      prefix: "chore"
+      prefix: "deps"
     schedule:
       interval: "daily"
