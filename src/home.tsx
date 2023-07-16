@@ -82,7 +82,7 @@ function Home(): React.ReactElement {
               rel="noreferrer"
             >
               Epitech Technology
-            </a>
+            </a>{" "}
             computer school.
           </p>
           <div className="home_button in_animation">
