@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.3.1](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v1.3.0...v1.3.1) (2023-07-17)
+
+
+### 📝 Documentation
+
+* add readme to provide project details ([f2f9808](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/f2f9808fa117e37eed465b28fcd72b14bcdaa5ac))
+
+
+### ♻️ Code Refactoring
+
+* modify sleep function to return NodeJS.Timeout ([fc909af](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/fc909afa1cad3b38f89de2b23ec792ef32002bda))
+* move default export to function declaration for cleaner code ([9594e14](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/9594e14a94cc92db2f61710cb72d7e8aaefbaf5f))
+
 ## [1.3.0](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v1.2.7...v1.3.0) (2023-07-16)
 
 
