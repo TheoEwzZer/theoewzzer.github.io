@@ -3,8 +3,9 @@ export function is_safari(): boolean {
 }
 
 export function sleep(ms: number): Promise<void> {
-  return new Promise((resolve: (value: void | PromiseLike<void>) => void) =>
-    setTimeout(resolve, ms)
+  return new Promise(
+    (resolve: (value: void | PromiseLike<void>) => void): NodeJS.Timeout =>
+      setTimeout(resolve, ms)
   );
 }
 
