@@ -2,7 +2,7 @@ import React from "react";
 import "./css/properties.css";
 import "./css/style.css";
 
-function Loading(): React.ReactElement {
+export default function Loading(): React.ReactElement {
   React.useEffect((): void => {
     const loading: HTMLElement | null =
       document.querySelector("#loading_screen");
@@ -13,5 +13,3 @@ function Loading(): React.ReactElement {
 
   return <div id="loading_screen"></div>;
 }
-
-export default Loading;

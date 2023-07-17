@@ -11,7 +11,7 @@ import Projects from "./projects";
 import Safari from "./safari";
 import Skills from "./skills";
 
-function App(): React.ReactElement {
+export default function App(): React.ReactElement {
   return (
     <>
       <Loading />
@@ -28,5 +28,3 @@ function App(): React.ReactElement {
     </>
   );
 }
-
-export default App;

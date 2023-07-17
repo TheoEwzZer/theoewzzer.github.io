@@ -2,7 +2,7 @@ import React from "react";
 import "./css/properties.css";
 import "./css/style.css";
 
-function LCP(): React.ReactElement {
+export default function LCP(): React.ReactElement {
   React.useEffect((): void => {
     window.onload = (): void => {
       setTimeout((): void => {
@@ -20,5 +20,3 @@ function LCP(): React.ReactElement {
     </div>
   );
 }
-
-export default LCP;

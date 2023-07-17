@@ -24,7 +24,7 @@ interface Tag {
   url: string;
 }
 
-function Experience(): React.ReactElement {
+export default function Experience(): React.ReactElement {
   const [data, setData] = React.useState<Data | null>(null);
 
   const current_date: Date = new Date();
@@ -216,5 +216,3 @@ function Experience(): React.ReactElement {
     </>
   );
 }
-
-export default Experience;

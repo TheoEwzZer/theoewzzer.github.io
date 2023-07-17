@@ -3,7 +3,7 @@ import "./css/contact.css";
 import "./css/properties.css";
 import "./css/style.css";
 
-function Contact(): React.ReactElement {
+export default function Contact(): React.ReactElement {
   const LinkedIn = {
     "--size": "150px",
   } as React.CSSProperties;
@@ -86,5 +86,3 @@ function Contact(): React.ReactElement {
     </>
   );
 }
-
-export default Contact;

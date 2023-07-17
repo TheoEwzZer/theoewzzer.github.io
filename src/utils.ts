@@ -21,7 +21,10 @@ export function is_in_viewport(el: Element | HTMLElement | null): boolean {
   );
 }
 
-function read_json(url: string, callback: (data: any) => void): void {
+export default function read_json(
+  url: string,
+  callback: (data: any) => void
+): void {
   let xhr: XMLHttpRequest = new XMLHttpRequest();
   xhr.open("GET", url);
 
@@ -33,5 +36,3 @@ function read_json(url: string, callback: (data: any) => void): void {
   };
   xhr.send();
 }
-
-export default read_json;

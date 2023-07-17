@@ -3,7 +3,7 @@ import "./css/about.css";
 import "./css/properties.css";
 import "./css/style.css";
 
-function About(): React.ReactElement {
+export default function About(): React.ReactElement {
   return (
     <>
       <a href="#about" id="about">
@@ -45,5 +45,3 @@ function About(): React.ReactElement {
     </>
   );
 }
-
-export default About;

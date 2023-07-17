@@ -25,7 +25,7 @@ interface Tag {
   url: string;
 }
 
-function Projects(): React.ReactElement {
+export default function Projects(): React.ReactElement {
   const [data, setData] = React.useState<IProjects | null>(null);
 
   let sort_by: string = "Date";
@@ -362,5 +362,3 @@ function Projects(): React.ReactElement {
     </>
   );
 }
-
-export default Projects;

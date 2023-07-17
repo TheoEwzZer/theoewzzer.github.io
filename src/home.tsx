@@ -6,7 +6,7 @@ import "./css/style.css";
 import Particles from "./Particles";
 import { is_in_viewport, sleep } from "./utils";
 
-function Home(): React.ReactElement {
+export default function Home(): React.ReactElement {
   const birthdate = new Date(2004, 11, 15);
   const age: number = Math.floor(
     (Date.now() - birthdate.getTime()) / (365.25 * 24 * 60 * 60 * 1000)
@@ -105,5 +105,3 @@ function Home(): React.ReactElement {
     </>
   );
 }
-
-export default Home;

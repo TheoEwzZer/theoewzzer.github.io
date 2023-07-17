@@ -3,7 +3,7 @@ import "./css/properties.css";
 import "./css/style.css";
 import { is_safari } from "./utils";
 
-function Safari(): React.ReactElement {
+export default function Safari(): React.ReactElement {
   React.useEffect((): void => {
     const safari_warning: HTMLElement | null =
       document.querySelector("#safari_warning");
@@ -26,5 +26,3 @@ function Safari(): React.ReactElement {
     </div>
   );
 }
-
-export default Safari;

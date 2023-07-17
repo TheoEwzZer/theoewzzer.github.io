@@ -19,7 +19,7 @@ interface SkillsData {
   skills_categories: Category[];
 }
 
-function Skills(): React.ReactElement {
+export default function Skills(): React.ReactElement {
   const [data, setData] = React.useState<SkillsData | null>(null);
 
   const choose: (i: number, categories: any, skillsLists: any) => void = (
@@ -144,5 +144,3 @@ function Skills(): React.ReactElement {
     </>
   );
 }
-
-export default Skills;

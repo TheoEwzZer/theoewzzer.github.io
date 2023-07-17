@@ -5,7 +5,7 @@ import "./css/properties.css";
 import "./css/style.css";
 import { sleep } from "./utils";
 
-function Header(): React.ReactElement {
+export default function Header(): React.ReactElement {
   React.useEffect((): void => {
     const header_in_animation: () => Promise<void> =
       async (): Promise<void> => {
@@ -283,5 +283,3 @@ function Header(): React.ReactElement {
     </>
   );
 }
-
-export default Header;
