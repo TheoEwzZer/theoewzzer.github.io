@@ -1,5 +1,27 @@
 # Changelog
 
+## [1.4.0](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v1.3.1...v1.4.0) (2023-08-02)
+
+
+### ✨ Features
+
+* add PostgreSQL and SQLAlchemy to the list of tags ([08178c3](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/08178c3913f7ccaba1bfd3117725b8c6b49b5b95))
+
+
+### 🐛 Bug Fixes
+
+* remove trailing slashes from URLs for consistency ([b04fac4](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/b04fac44077ec8a2b1fa5d81ce68d8b2664a6b28))
+
+
+### 📦 Dependencies
+
+* bump @types/node from 20.4.2 to 20.4.4 ([c1b4026](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/c1b4026e44ddfd3dcb1388ee2e849af1c3cd2e49))
+* bump @types/node from 20.4.4 to 20.4.5 ([b77d7cd](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/b77d7cd70f52e4b3eafa028f68640829d3e02e0e))
+* bump @types/react from 18.2.15 to 18.2.17 ([34d6843](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/34d68437746b923ee5013a5463e8607ad8ac9fd0))
+* bump @types/react from 18.2.17 to 18.2.18 ([9bbdc79](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/9bbdc79b6792ea8d8f3f1f564c35dd1acaceaf7c))
+* bump tsparticles-slim from 2.11.0 to 2.11.1 ([5367d39](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/5367d39006afe8d6f42e80ceac8ff9e87ab38496))
+* bump word-wrap from 1.2.3 to 1.2.4 ([e7e3b97](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/e7e3b9723775de6e989a18a4ad4a54bc2d8441ff))
+
 ## [1.3.1](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v1.3.0...v1.3.1) (2023-07-17)
 
 
