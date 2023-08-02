@@ -9,11 +9,11 @@
       "tags": [
         {
           "name": "Python",
-          "url": "https://www.python.org/"
+          "url": "https://www.python.org"
         },
         { "name": "TypeScript", "url": "https://www.typescriptlang.org" },
         { "name": "FastAPI", "url": "https://fastapi.tiangolo.com" },
-        { "name": "React", "url": "https://reactjs.org/" }
+        { "name": "React", "url": "https://reactjs.org" }
       ],
       "link": "https://www.enedis.fr",
       "image": "images/experience/Enedis.webp"
@@ -29,18 +29,18 @@
           "name": "C",
           "url": "https://en.wikipedia.org/wiki/C_(langage) "
         },
-        { "name": "Python", "url": "https://www.python.org/" },
+        { "name": "Python", "url": "https://www.python.org" },
         {
           "name": "JavaScript",
           "url": "https://en.wikipedia.org/wiki/JavaScript"
         },
-        { "name": "Docker", "url": "https://www.docker.com/" },
+        { "name": "Docker", "url": "https://www.docker.com" },
         {
           "name": "GitHub Actions",
           "url": "https://github.com/features/actions"
         }
       ],
-      "link": "https://www.epitech.eu/",
+      "link": "https://www.epitech.eu",
       "image": "images/experience/epitech.jpg"
     }
   ]
