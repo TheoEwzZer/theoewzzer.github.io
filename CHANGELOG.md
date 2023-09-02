@@ -1,5 +1,35 @@
 # Changelog
 
+## [1.4.1](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v1.4.0...v1.4.1) (2023-09-02)
+
+
+### 📦 Dependencies
+
+* bump @types/node from 20.4.10 to 20.5.0 ([32e76d2](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/32e76d285a62806e689ac8a13da80ffba1a8db83))
+* bump @types/node from 20.4.5 to 20.4.6 ([d698245](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/d698245f9acb90f2c6eb465664b065fe26986d94))
+* bump @types/node from 20.4.6 to 20.4.7 ([d8fe67e](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/d8fe67eae643126fcb44e974679c9fd7a819d92d))
+* bump @types/node from 20.4.7 to 20.4.8 ([889e0ce](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/889e0ceeb6f213c14ec12d44d5643064fdfeb343))
+* bump @types/node from 20.4.8 to 20.4.9 ([77338f2](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/77338f2efcc5c51146bae21d630f5e2ce9573b40))
+* bump @types/node from 20.4.9 to 20.4.10 ([1a18285](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/1a1828581da62c6769e6be175229a3ea50853240))
+* bump @types/node from 20.5.0 to 20.5.1 ([d819284](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/d819284c9624794e0d09250c41a9966d5c81a358))
+* bump @types/node from 20.5.1 to 20.5.3 ([9f393aa](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/9f393aaec5a426fd9eee7a5e85f3bb9a9c3aeeac))
+* bump @types/node from 20.5.3 to 20.5.4 ([583d817](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/583d81739d1c7f2669c8220f2a058dcac076f493))
+* bump @types/node from 20.5.4 to 20.5.6 ([8ce8a18](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/8ce8a18b6494ea8855f4b1ec26e4c8c38c97742c))
+* bump @types/node from 20.5.6 to 20.5.7 ([267e335](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/267e335709123246cfbe866834217dfaaa3cb1cf))
+* bump @types/react from 18.2.18 to 18.2.19 ([a24d8d2](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/a24d8d2a25e438f6d394771170174349ccfabbe2))
+* bump @types/react from 18.2.19 to 18.2.20 ([ad7d222](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/ad7d2223995c4e5ab65f8f429417f2f3fc9530d0))
+* bump @types/react from 18.2.20 to 18.2.21 ([9cac364](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/9cac3643cf92dd2c2da900931bfef85369c8f656))
+* bump gh-pages from 5.0.0 to 6.0.0 ([3a246fa](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/3a246fa5de1125f360981e4643f40c5e9c70858e))
+* bump react-particles from 2.11.0 to 2.12.1 ([43b18b0](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/43b18b04cd7230ddaa66008dc76f0ecf1df96898))
+* bump react-particles from 2.12.1 to 2.12.2 ([d284596](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/d2845969d07f4768a68983c1b24dde639b1b91b4))
+* bump tsparticles-slim from 2.11.1 to 2.12.0 ([bced73a](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/bced73a5e90914bba0f5ebb81ee41539887d8c48))
+
+
+### 📝 Documentation
+
+* add a subheading to clarify the software and tools used ([838a52c](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/838a52c5403c8f6d667a42a83ad5c8972adf7a96))
+* overhaul documentation for better readability ([0169f51](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/0169f51b21b230ae2d0932a5c6271671771b9a99))
+
 ## [1.4.0](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v1.3.1...v1.4.0) (2023-08-02)
 
 
