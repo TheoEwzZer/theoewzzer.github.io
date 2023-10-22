@@ -1,5 +1,35 @@
 # Changelog
 
+## [1.4.2](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v1.4.1...v1.4.2) (2023-10-22)
+
+
+### 📦 Dependencies
+
+* bump @babel/traverse from 7.22.5 to 7.23.2 ([19a6223](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/19a6223f8bc3fdbf8c4e4bef6d5d9461078f1c3e))
+* bump @types/node from 20.5.7 to 20.5.9 ([6916728](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/6916728edee5f4f42d632244c9e49bb5efe14585))
+* bump @types/node from 20.5.9 to 20.6.0 ([9d698c4](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/9d698c44d4bd8fcc52ff5789d468cf1b87455513))
+* bump @types/node from 20.6.0 to 20.6.1 ([322bf5c](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/322bf5c8348b94c84d58ce3680556251d8aa2043))
+* bump @types/node from 20.6.1 to 20.6.2 ([95fd8ea](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/95fd8ea8d7240f05e6f3a5066b14d1cab6a9fa99))
+* bump @types/node from 20.6.2 to 20.6.3 ([8a33e0d](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/8a33e0dce77bc50a1331c525a70ee4903b3b7ad9))
+* bump @types/node from 20.6.3 to 20.7.0 ([ee3b3b8](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/ee3b3b8329924e5c2ac56f1693343f83da33eb03))
+* bump @types/node from 20.7.0 to 20.7.1 ([5b1b236](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/5b1b2368e8a967c7de4746224bb7ab16995964ed))
+* bump @types/node from 20.7.1 to 20.7.2 ([6b64d0e](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/6b64d0e8f118ba007ed2535ee6baa8c667b830d7))
+* bump @types/node from 20.7.2 to 20.8.2 ([30d4923](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/30d492342672d860488fbad9c90efdf6755519fe))
+* bump @types/node from 20.8.2 to 20.8.4 ([5b8fc29](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/5b8fc29ee5b15b954f6a836558706e83f888a562))
+* bump @types/node from 20.8.4 to 20.8.5 ([299364e](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/299364e0d543f430e578e7054b3c22b4b4ec96b6))
+* bump @types/node from 20.8.5 to 20.8.6 ([d8a9622](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/d8a9622292544f407ad6c6efe42c6f32b9c01e39))
+* bump @types/node from 20.8.6 to 20.8.7 ([5deb851](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/5deb851fbe71627f86b9210f0ff2f2424b318497))
+* bump @types/react from 18.2.21 to 18.2.22 ([f465f65](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/f465f6547c139aa778cf93a49f85af4799a8f4fa))
+* bump @types/react from 18.2.22 to 18.2.23 ([e54b796](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/e54b796fbb2d3e52061bd91b94707bdaabb2668f))
+* bump @types/react from 18.2.23 to 18.2.24 ([b9b961b](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/b9b961b896ac2272a3712cdd5611ddc5a2f21248))
+* bump @types/react from 18.2.24 to 18.2.25 ([0a4cfc1](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/0a4cfc1d92cac91d394c7d302c36816293a2414e))
+* bump @types/react from 18.2.25 to 18.2.27 ([0e14ad9](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/0e14ad937b7e82f345bff9b5ffe3aa1499e38981))
+* bump @types/react from 18.2.27 to 18.2.28 ([916922b](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/916922b47cac23362cdcade6245e4bb49942397f))
+* bump @types/react-dom from 18.2.12 to 18.2.13 ([d2fe521](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/d2fe521f3211757dcd7a486e3cf47766a3f64a41))
+* bump @types/react-dom from 18.2.13 to 18.2.14 ([8b05902](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/8b05902022d247eeb565999eb570cbf60336ea56))
+* bump @types/react-dom from 18.2.7 to 18.2.8 ([cba3795](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/cba3795904d620f942e13f3059f77abd3246513f))
+* bump @types/react-dom from 18.2.8 to 18.2.12 ([dc5c34a](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/dc5c34a683cf95072fbb50ebe44d0fc4d1b16042))
+
 ## [1.4.1](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v1.4.0...v1.4.1) (2023-09-02)
 
 
