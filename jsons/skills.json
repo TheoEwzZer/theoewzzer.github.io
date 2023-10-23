@@ -77,6 +77,11 @@
           "name": "React",
           "logo": "/shapes/skills/React.svg",
           "link": "https://reactjs.org/"
+        },
+        {
+          "name": "Material UI",
+          "logo": "/shapes/skills/MUI.svg",
+          "link": "https://mui.com/material-ui/"
         }
       ]
     },
@@ -104,16 +109,6 @@
           "link": "http://expressjs.com"
         },
         {
-          "name": "MySQL",
-          "logo": "/shapes/skills/MySQL.svg",
-          "link": "https://www.mysql.com/"
-        },
-        {
-          "name": "MongoDB",
-          "logo": "/shapes/skills/MongoDB.svg",
-          "link": "https://www.mongodb.com"
-        },
-        {
           "name": "Git",
           "logo": "/shapes/skills/Git.svg",
           "link": "https://git-scm.com/"
@@ -127,6 +122,51 @@
           "name": "FastAPI",
           "logo": "/shapes/skills/FastAPi.svg",
           "link": "https://fastapi.tiangolo.com"
+        }
+      ]
+    },
+    {
+      "name": "Databases",
+      "skills": [
+        {
+          "name": "MySQL",
+          "logo": "/shapes/skills/MySQL.svg",
+          "link": "https://www.mysql.com/"
+        },
+        {
+          "name": "SQL",
+          "logo": "/shapes/skills/Sql.svg",
+          "link": "https://sql.sh"
+        },
+        {
+          "name": "MongoDB",
+          "logo": "/shapes/skills/MongoDB.svg",
+          "link": "https://www.mongodb.com"
+        },
+        {
+          "name": "SQLAlchemy",
+          "logo": "/shapes/skills/SQLAlchemy.svg",
+          "link": "https://www.sqlalchemy.org/"
+        },
+        {
+          "name": "PostgreSQL",
+          "logo": "/shapes/skills/PostgreSQL.svg",
+          "link": "https://www.postgresql.org/"
+        }
+      ]
+    },
+    {
+      "name": "Design",
+      "skills": [
+        {
+          "name": "Photoshop",
+          "logo": "/shapes/skills/photoshop.svg",
+          "link": "https://www.adobe.com/products/photoshop.html"
+        },
+        {
+          "name": "Figma",
+          "logo": "/shapes/skills/Figma.svg",
+          "link": "https://www.figma.com/"
         }
       ]
     }
