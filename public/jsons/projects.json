@@ -296,7 +296,7 @@
         "none"
       ],
       "image": "images/projects/need4stek.png",
-      "categories": ["School", "IA", "Simulations"]
+      "categories": ["School", "AI", "Simulations"]
     },
     {
       "date": "2023-02",
@@ -335,41 +335,6 @@
       ],
       "image": "images/projects/chocolatine.png",
       "categories": ["School", "DevOps"]
-    },
-    {
-      "date": "2023-06",
-      "type": "Project Personal",
-      "title": "Todo Manager",
-      "description": "The project involves creating a web-based task management application. The aim is to master the basics of React and create a REST API using FastAPI.",
-      "tags": [
-        {
-          "name": "Typescript",
-          "url": "https://www.typescriptlang.org"
-        },
-        {
-          "name": "React",
-          "url": "https://react.dev"
-        },
-        {
-          "name": "Python",
-          "url": "https://www.python.org"
-        },
-        {
-          "name": "FastAPI",
-          "url": "https://fastapi.tiangolo.com"
-        },
-        {
-          "name": "MySQL",
-          "url": "https://www.mysql.com"
-        }
-      ],
-      "links": [
-        "https://github.com/TheoEwzZer/Todo",
-        "https://github.com/TheoEwzZer/Todo",
-        "none"
-      ],
-      "image": "images/projects/todo.png",
-      "categories": ["Personal", "Web"]
     },
     {
       "date": "2023-06",
@@ -442,6 +407,218 @@
         "https://theofabiano.me"
       ],
       "image": "images/projects/portfolio.png",
+      "categories": ["Personal", "Web"]
+    },
+    {
+      "date": "2023-11",
+      "type": "Personal Project",
+      "title": "SpotifyClone",
+      "description": "This project aims to replicate the functionality of the popular music streaming platform, Spotify. It provides a user-friendly interface where users can search for and play music, create playlists, and browse through different genres and artists. With this clone, users can enjoy a similar music streaming experience as they would on Spotify, but with the added benefit of being able to customize and modify the codebase to suit their needs.",
+      "tags": [
+        {
+          "name": "Typescript",
+          "url": "https://www.typescriptlang.org"
+        },
+        {
+          "name": "Next.js",
+          "url": "https://nextjs.org"
+        },
+        {
+          "name": "React",
+          "url": "https://react.dev"
+        },
+        {
+          "name": "HTML",
+          "url": "https://en.wikipedia.org/wiki/HTML"
+        },
+        {
+          "name": "CSS",
+          "url": "https://en.wikipedia.org/wiki/CSS"
+        },
+        {
+          "name": "Supabase",
+          "url": "https://supabase.io"
+        },
+        {
+          "name": "Stripe",
+          "url": "https://stripe.com"
+        },
+        {
+          "name": "Tailwind",
+          "url": "https://tailwindcss.com"
+        }
+      ],
+      "links": [
+        "https://spotify-clone-theo.vercel.app",
+        "https://github.com/TheoEwzZer/SpotifyClone",
+        "https://spotify-clone-theo.vercel.app"
+      ],
+      "image": "images/projects/spotifyclone.png",
+      "categories": ["Personal", "Web"]
+    },
+    {
+      "date": "2023-11",
+      "type": "Personal Project",
+      "title": "Ecommerce-Admin",
+      "description": "The project is an admin dashboard for managing an e-commerce store, built using Next.js and React. This powerful tool serves as a CMS, admin interface, and API, providing extensive control over multiple vendors and stores. The admin dashboard is designed with Shadcn UI for a sleek and user-friendly experience. It empowers administrators to efficiently handle categories, products, filters, billboards, and more, all while offering seamless integration with Clerk Authentication and Stripe payment functionalities.",
+      "tags": [
+        {
+          "name": "Typescript",
+          "url": "https://www.typescriptlang.org"
+        },
+        {
+          "name": "Next.js",
+          "url": "https://nextjs.org"
+        },
+        {
+          "name": "React",
+          "url": "https://react.dev"
+        },
+        {
+          "name": "HTML",
+          "url": "https://en.wikipedia.org/wiki/HTML"
+        },
+        {
+          "name": "CSS",
+          "url": "https://en.wikipedia.org/wiki/CSS"
+        },
+        {
+          "name": "Prisma",
+          "url": "https://prisma.io"
+        },
+        {
+          "name": "Stripe",
+          "url": "https://stripe.com"
+        },
+        {
+          "name": "Tailwind",
+          "url": "https://tailwindcss.com"
+        },
+        {
+          "name": "Clerk",
+          "url": "https://clerk.com"
+        },
+        {
+          "name": "Shadcn UI",
+          "url": "https://ui.shadcn.com"
+        }
+      ],
+      "links": [
+        "https://ecommerce-admin-theo.vercel.app",
+        "https://github.com/TheoEwzZer/SpotifyClone",
+        "https://ecommerce-admin-theo.vercel.app"
+      ],
+      "image": "images/projects/ecommerce-admin.png",
+      "categories": ["Personal", "Web"]
+    },
+    {
+      "date": "2023-11",
+      "type": "Personal Project",
+      "title": "Ecommerce-Store",
+      "description": "This project is an ecommerce store built using Next.js and React. It allows users to browse and purchase products based on categories and sizes. The store fetches data from API endpoints to display products, billboards, and categories. It also includes functionality for adding items to the shopping cart. Overall, the project provides a user-friendly interface for online shopping and offers a seamless experience for browsing and purchasing products.",
+      "tags": [
+        {
+          "name": "Typescript",
+          "url": "https://www.typescriptlang.org"
+        },
+        {
+          "name": "Next.js",
+          "url": "https://nextjs.org"
+        },
+        {
+          "name": "React",
+          "url": "https://react.dev"
+        },
+        {
+          "name": "HTML",
+          "url": "https://en.wikipedia.org/wiki/HTML"
+        },
+        {
+          "name": "CSS",
+          "url": "https://en.wikipedia.org/wiki/CSS"
+        },
+        {
+          "name": "Prisma",
+          "url": "https://prisma.io"
+        },
+        {
+          "name": "Stripe",
+          "url": "https://stripe.com"
+        },
+        {
+          "name": "Tailwind",
+          "url": "https://tailwindcss.com"
+        },
+        {
+          "name": "Clerk",
+          "url": "https://clerk.com"
+        },
+        {
+          "name": "Shadcn UI",
+          "url": "https://ui.shadcn.com"
+        }
+      ],
+      "links": [
+        "https://ecommerce-store-theo.vercel.app",
+        "https://github.com/TheoEwzZer/SpotifyClone",
+        "https://ecommerce-store-theo.vercel.app"
+      ],
+      "image": "images/projects/ecommerce-store.png",
+      "categories": ["Personal", "Web"]
+    },
+    {
+      "date": "2023-12",
+      "type": "Personal Project",
+      "title": "TaskManagement",
+      "description": "This project is a web application inspired by Trello. It's designed to manage tasks and projects within organizations and workspaces. The application is built with a MySQL database and Prisma ORM, and the UI is developed using shadcnUI & TailwindCSS.",
+      "tags": [
+        {
+          "name": "Typescript",
+          "url": "https://www.typescriptlang.org"
+        },
+        {
+          "name": "Next.js",
+          "url": "https://nextjs.org"
+        },
+        {
+          "name": "React",
+          "url": "https://react.dev"
+        },
+        {
+          "name": "HTML",
+          "url": "https://en.wikipedia.org/wiki/HTML"
+        },
+        {
+          "name": "CSS",
+          "url": "https://en.wikipedia.org/wiki/CSS"
+        },
+        {
+          "name": "Prisma",
+          "url": "https://prisma.io"
+        },
+        {
+          "name": "Stripe",
+          "url": "https://stripe.com"
+        },
+        {
+          "name": "Tailwind",
+          "url": "https://tailwindcss.com"
+        },
+        {
+          "name": "Clerk",
+          "url": "https://clerk.com"
+        },
+        {
+          "name": "Shadcn UI",
+          "url": "https://ui.shadcn.com"
+        }
+      ],
+      "links": [
+        "https://task-management-theo.vercel.app",
+        "https://github.com/TheoEwzZer/SpotifyClone",
+        "https://task-management-theo.vercel.app"
+      ],
+      "image": "images/projects/taskmanagement.png",
       "categories": ["Personal", "Web"]
     }
   ]

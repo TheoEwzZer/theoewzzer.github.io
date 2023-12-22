@@ -82,6 +82,21 @@
           "name": "Material UI",
           "logo": "/shapes/skills/MUI.svg",
           "link": "https://mui.com/material-ui/"
+        },
+        {
+          "name": "Shadcn UI",
+          "logo": "/shapes/skills/shadcn.svg",
+          "link": "https://ui.shadcn.com"
+        },
+        {
+          "name": "Tailwind",
+          "logo": "/shapes/skills/tailwind.svg",
+          "link": "https://tailwindcss.com"
+        },
+        {
+          "name": "NextJS",
+          "logo": "/shapes/skills/NextJS.svg",
+          "link": "https://nextjs.org"
         }
       ]
     },
@@ -122,6 +137,16 @@
           "name": "FastAPI",
           "logo": "/shapes/skills/FastAPi.svg",
           "link": "https://fastapi.tiangolo.com"
+        },
+        {
+          "name": "NextJS",
+          "logo": "/shapes/skills/NextJS.svg",
+          "link": "https://nextjs.org"
+        },
+        {
+          "name": "Stripe",
+          "logo": "/shapes/skills/Stripe.svg",
+          "link": "https://stripe.com/"
         }
       ]
     },
@@ -152,6 +177,21 @@
           "name": "PostgreSQL",
           "logo": "/shapes/skills/PostgreSQL.svg",
           "link": "https://www.postgresql.org/"
+        },
+        {
+          "name": "PlanetScale",
+          "logo": "/shapes/skills/PlanetScale.svg",
+          "link": "https://planetscale.com/"
+        },
+        {
+          "name": "Prisma",
+          "logo": "/shapes/skills/Prisma.svg",
+          "link": "https://www.prisma.io/"
+        },
+        {
+          "name": "Supabase",
+          "logo": "/shapes/skills/supabase.svg",
+          "link": "https://supabase.io/"
         }
       ]
     },
