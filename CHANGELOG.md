@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.1](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v1.5.0...v1.5.1) (2023-12-23)
+
+
+### 💄 Styles
+
+* update taskmanagement.png image ([a8c9b8f](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/a8c9b8f3076cf90f4909c84fdb3a8a9acbed5209))
+
 ## [1.5.0](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v1.4.2...v1.5.0) (2023-12-23)
 
 
