@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.1](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v1.6.0...v1.6.1) (2024-06-07)
+
+
+### 🔧 Other
+
+* bootstrap releases for path: . ([2a9c40f](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/2a9c40f3ee94ecdb33cf427921a845f6762893a7))
+
 ## [1.6.0](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v1.5.1...v1.6.0) (2024-06-07)
 
 
