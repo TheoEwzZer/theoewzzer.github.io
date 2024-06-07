@@ -27,11 +27,11 @@
       "date": "2023-02",
       "type": "School Project",
       "title": "42sh",
-      "description": "The project involves developing a UNIX command interpreter, similar to the TCSH shell. The aim is to be able to execute basic commands, handle errors, environment variables and built-in commands such as cd, setenv, unsetenv, env and exit. The interpreter must also manage the search for executables in the PATH and display a prompt to wait for user commands.",
+      "description": "The project involves developing a UNIX command interpreter, similar to the TCSH shell. The aim is to be able to execute basic commands, handle errors, environment variables and built-in commands such as cd, setenv, unsetenv, env and exit. The interpreter manage the search for executables in the PATH and display a prompt to wait for user commands.",
       "tags": [
         {
           "name": "C",
-          "url": "https://en.wikipedia.org/wiki/C_(langage)"
+          "url": "https://en.wikipedia.org/wiki/C_(programming_language)"
         },
         {
           "name": "Unix",
@@ -50,11 +50,11 @@
       "date": "2022-11",
       "type": "School Project",
       "title": "MyHunter",
-      "description": "The project involves creating a small video game inspired by Duck Hunt. The player takes the role of a hunter who must shoot ducks that appear on the screen. The game must handle user input, display animated sprites and allow the player to move and shoot the ducks. The aim is to create a fun game while respecting the rules and functionalities required.",
+      "description": "The project involves creating a small video game inspired by Duck Hunt. The player takes the role of a hunter who shoot ducks that appear on the screen. The game handle user input, display animated sprites and allow the player to move and shoot the ducks. The aim is to create a fun game while respecting the rules and functionalities required.",
       "tags": [
         {
           "name": "C",
-          "url": "https://en.wikipedia.org/wiki/C_(langage)"
+          "url": "https://en.wikipedia.org/wiki/C_(programming_language)"
         },
         {
           "name": "CSFML",
@@ -77,7 +77,7 @@
       "tags": [
         {
           "name": "C",
-          "url": "https://en.wikipedia.org/wiki/C_(langage)"
+          "url": "https://en.wikipedia.org/wiki/C_(programming_language)"
         },
         {
           "name": "CSFML",
@@ -96,11 +96,11 @@
       "date": "2022-11",
       "type": "School Project",
       "title": "BSQ",
-      "description": "The project involves finding the largest possible square on a grid, avoiding obstacles. The grid can be generated from a file or using parameters for width, height and a repeated pattern. The program must display the grid with the cells of the largest square replaced by 'x'. The aim is to find the highest solution and, in the case of several solutions, to choose the leftmost square.",
+      "description": "The project involves finding the largest possible square on a grid, avoiding obstacles. The grid can be generated from a file or using parameters for width, height and a repeated pattern. The program display the grid with the cells of the largest square replaced by 'x'. The aim is to find the highest solution and, in the case of several solutions, to choose the leftmost square.",
       "tags": [
         {
           "name": "C",
-          "url": "https://en.wikipedia.org/wiki/C_(langage)"
+          "url": "https://en.wikipedia.org/wiki/C_(programming_language)"
         }
       ],
       "links": [
@@ -115,11 +115,11 @@
       "date": "2022-11",
       "type": "School Project",
       "title": "Sokoban",
-      "description": "The project involves developing a terminal-mode version of the Sokoban game using the ncurses library. The player has to move crates around a warehouse, pushing the crates to storage locations. The game is over when all the crates have been placed on the storage locations. The program must be able to handle the resizing of the terminal and the arrow keys for the player's movements.",
+      "description": "The project involves developing a terminal-mode version of the Sokoban game using the ncurses library. The player has to move crates around a warehouse, pushing the crates to storage locations. The game is over when all the crates have been placed on the storage locations. The program is able to handle the resizing of the terminal and the arrow keys for the player's movements.",
       "tags": [
         {
           "name": "C",
-          "url": "https://en.wikipedia.org/wiki/C_(langage)"
+          "url": "https://en.wikipedia.org/wiki/C_(programming_language)"
         },
         {
           "name": "Ncurses",
@@ -142,7 +142,7 @@
       "tags": [
         {
           "name": "C",
-          "url": "https://en.wikipedia.org/wiki/C_(langage)"
+          "url": "https://en.wikipedia.org/wiki/C_(programming_language)"
         }
       ],
       "links": [
@@ -157,11 +157,11 @@
       "date": "2022-11",
       "type": "School Project",
       "title": "Push Swap",
-      "description": "The project consists in developing a program that sorts a list of numbers using a limited set of operations. The program will take as input an unsorted list and must produce a sequence of operations that sorts the list with the fewest possible operations. The aim is to implement an efficient algorithm to solve this sorting problem in an optimal way.",
+      "description": "The project consists in developing a program that sorts a list of numbers using a limited set of operations. The program will take as input an unsorted list and produce a sequence of operations that sorts the list with the fewest possible operations. The aim is to implement an efficient algorithm to solve this sorting problem in an optimal way.",
       "tags": [
         {
           "name": "C",
-          "url": "https://en.wikipedia.org/wiki/C_(langage)"
+          "url": "https://en.wikipedia.org/wiki/C_(programming_language)"
         }
       ],
       "links": [
@@ -199,11 +199,11 @@
       "date": "2023-02",
       "type": "School Project",
       "title": "MyPaint",
-      "description": "The project involves developing a drawing program similar to 'Paint' using a graphical user interface. The program is to enable the user to draw using tools such as pencil and eraser, and to modify the parameters of these tools. It should also offer features such as image saving in different formats.",
+      "description": "The project involves developing a drawing program similar to 'Paint' using a graphical user interface. The program is to enable the user to draw using tools such as pencil and eraser, and to modify the parameters of these tools. It also offer features such as image saving in different formats.",
       "tags": [
         {
           "name": "C",
-          "url": "https://en.wikipedia.org/wiki/C_(langage)"
+          "url": "https://en.wikipedia.org/wiki/C_(programming_language)"
         },
         {
           "name": "CSFML",
@@ -222,11 +222,11 @@
       "date": "2023-03",
       "type": "School Project",
       "title": "MyRpg",
-      "description": "The project involves creating a complete role-playing game (RPG) using the C language. The game must offer a pleasant user interface, a coherent universe with appropriate graphics and sounds, and a fun gameplay experience with objectives to achieve. It must also include player features, combat, inventory, quests, and allow the player to gain experience and progress through the game.",
+      "description": "The project involves creating a complete role-playing game (RPG) using the C language. The game offer a pleasant user interface, a coherent universe with appropriate graphics and sounds, and a fun gameplay experience with objectives to achieve. It also include player features, combat, inventory, quests, and allow the player to gain experience and progress through the game.",
       "tags": [
         {
           "name": "C",
-          "url": "https://en.wikipedia.org/wiki/C_(langage)"
+          "url": "https://en.wikipedia.org/wiki/C_(programming_language)"
         },
         {
           "name": "CSFML",
@@ -249,7 +249,7 @@
       "tags": [
         {
           "name": "C",
-          "url": "https://en.wikipedia.org/wiki/C_(langage)"
+          "url": "https://en.wikipedia.org/wiki/C_(programming_language)"
         }
       ],
       "links": [
@@ -268,7 +268,7 @@
       "tags": [
         {
           "name": "C",
-          "url": "https://en.wikipedia.org/wiki/C_(langage)"
+          "url": "https://en.wikipedia.org/wiki/C_(programming_language)"
         }
       ],
       "links": [
@@ -287,7 +287,7 @@
       "tags": [
         {
           "name": "C",
-          "url": "https://en.wikipedia.org/wiki/C_(langage)"
+          "url": "https://en.wikipedia.org/wiki/C_(programming_language)"
         }
       ],
       "links": [
@@ -367,7 +367,7 @@
       "tags": [
         {
           "name": "C",
-          "url": "https://en.wikipedia.org/wiki/C_(langage)"
+          "url": "https://en.wikipedia.org/wiki/C_(programming_language)"
         }
       ],
       "links": [
@@ -620,6 +620,343 @@
       ],
       "image": "images/projects/taskmanagement.png",
       "categories": ["Personal", "Web"]
+    },
+    {
+      "date": "2024-02",
+      "type": "School Project",
+      "title": "MiniLibC",
+      "description": "This project involves creating a dynamic ELF library in x86-64 assembly to replace standard C library functions like strlen, memcpy, and strcmp, aiming to deepen understanding of low-level programming and system interactions using custom implementations.",
+      "tags": [
+        {
+          "name": "Assembly",
+          "url": "https://en.wikipedia.org/wiki/Assembly_language"
+        }
+      ],
+      "links": [
+        "https://github.com/TheoEwzZer/AsmMiniLibC",
+        "https://github.com/TheoEwzZer/AsmMiniLibC",
+        "none"
+      ],
+      "image": "images/projects/ASM.png",
+      "categories": ["School"]
+    },
+    {
+      "date": "2024-02",
+      "type": "School Project",
+      "title": "Wolfram",
+      "description": "This project aims to implement Wolfram's elementary cellular automaton in the terminal. The cellular automaton operates within an infinite space, allowing unseen areas to affect future generations.",
+      "tags": [
+        {
+          "name": "Haskell",
+          "url": "https://en.wikipedia.org/wiki/Haskell"
+        },
+        {
+          "name": "Stack",
+          "url": "https://en.wikipedia.org/wiki/Stack_(Haskell)"
+        },
+        {
+          "name": "Elementary cellular automaton",
+          "url": "https://en.wikipedia.org/wiki/Elementary_cellular_automaton"
+        }
+      ],
+      "links": [
+        "https://github.com/TheoEwzZer/Wolfram",
+        "https://github.com/TheoEwzZer/Wolfram",
+        "none"
+      ],
+      "image": "images/projects/Wolfram.jpg",
+      "categories": ["School"]
+    },
+    {
+      "date": "2024-02",
+      "type": "School Project",
+      "title": "MyFTP",
+      "description": "This project aims to develop a FTP server adhering to the specified protocol ensuring RFC959 compliance. It involves implementing request sequences outlined in the protocol, utilizing TCP sockets for network communication.",
+      "tags": [
+        {
+          "name": "C",
+          "url": "https://en.wikipedia.org/wiki/C_(programming_language)"
+        },
+        {
+          "name": "FTP",
+          "url": "https://en.wikipedia.org/wiki/File_Transfer_Protocol"
+        },
+        {
+          "name": "TCP",
+          "url": "https://en.wikipedia.org/wiki/Transmission_Control_Protocol"
+        },
+        {
+          "name": "Socket",
+          "url": "https://en.wikipedia.org/wiki/Network_socket"
+        }
+      ],
+      "links": [
+        "https://github.com/TheoEwzZer/myftp",
+        "https://github.com/TheoEwzZer/myftp",
+        "none"
+      ],
+      "image": "images/projects/ftp.png",
+      "categories": ["School"]
+    },
+    {
+      "date": "2024-02",
+      "type": "School Project",
+      "title": "NanoTekSpice",
+      "description": "This project aims to develop NanoTekSpice, a logic simulator that constructs a graph representing digital electronic components from a configuration file, allowing the injection of values to obtain results.",
+      "tags": [
+        {
+          "name": "C++",
+          "url": "https://en.wikipedia.org/wiki/C++_(programming_language)"
+        },
+        {
+          "name": "OOP",
+          "url": "https://en.wikipedia.org/wiki/Object-oriented_programming"
+        },
+        {
+          "name": "Electronic Component",
+          "url": "https://en.wikipedia.org/wiki/Electronic_component"
+        },
+        {
+          "name": "Chipset",
+          "url": "https://en.wikipedia.org/wiki/Chipset"
+        }
+      ],
+      "links": [
+        "https://github.com/TheoEwzZer/NanoTekSpice",
+        "https://github.com/TheoEwzZer/NanoTekSpice",
+        "none"
+      ],
+      "image": "images/projects/nanotekspice.jpg",
+      "categories": ["School"]
+    },
+    {
+      "date": "2024-03",
+      "type": "School Project",
+      "title": "Image Compressor",
+      "description": "This project aims to implement an image compressor using the k-means algorithm for clustering colors, focusing on regrouping pixel colors into clusters and replacing them with the cluster's mean color to reduce the number of colors in the image.",
+      "tags": [
+        {
+          "name": "Haskell",
+          "url": "https://en.wikipedia.org/wiki/Haskell"
+        },
+        {
+          "name": "Stack",
+          "url": "https://en.wikipedia.org/wiki/Stack_(Haskell)"
+        }
+      ],
+      "links": [
+        "https://github.com/TheoEwzZer/compressor",
+        "https://github.com/TheoEwzZer/compressor",
+        "none"
+      ],
+      "image": "images/projects/compressor.png",
+      "categories": ["School"]
+    },
+    {
+      "date": "2024-03",
+      "type": "School Project",
+      "title": "Arcade",
+      "description": "This project involves creating Arcade, a gaming platform that allows users to select and play games while tracking player scores. It requires implementing games and graphics libraries as dynamic libraries loaded at runtime. GUIs are to be used as shared libraries dynamically by the main program. Games and graphics libraries, including Ncurses.so, SDL2, and SFML, are provided, featuring games like Snake and Pacman, ensuring game logic remains independent from graphics libraries.",
+      "tags": [
+        {
+          "name": "C++",
+          "url": "https://en.wikipedia.org/wiki/C++_(programming_language)"
+        },
+        {
+          "name": "OOP",
+          "url": "https://en.wikipedia.org/wiki/Object-oriented_programming"
+        },
+        {
+          "name": "Dynamic Library",
+          "url": "https://en.wikipedia.org/wiki/Dynamic_linker"
+        },
+        {
+          "name": "Shared Library",
+          "url": "https://en.wikipedia.org/wiki/Library_(computing)#Shared_libraries"
+        },
+        {
+          "name": "Ncurses",
+          "url": "https://en.wikipedia.org/wiki/Ncurses"
+        },
+        {
+          "name": "SDL2",
+          "url": "https://en.wikipedia.org/wiki/Simple_DirectMedia_Layer"
+        },
+        {
+          "name": "SFML",
+          "url": "https://en.wikipedia.org/wiki/Simple_and_Fast_Multimedia_Library"
+        },
+        {
+          "name": "Snake",
+          "url": "https://en.wikipedia.org/wiki/Snake_(video_game_genre)"
+        },
+        {
+          "name": "Pacman",
+          "url": "https://en.wikipedia.org/wiki/Pac-Man"
+        }
+      ],
+      "links": [
+        "https://github.com/TheoEwzZer/arcade",
+        "https://github.com/TheoEwzZer/arcade",
+        "none"
+      ],
+      "image": "images/projects/arcade.png",
+      "categories": ["School", "Games"]
+    },
+    {
+      "date": "2024-03",
+      "type": "School Project",
+      "title": "MyTeams",
+      "description": "This project aims to develop a server and a CLI client, establishing a custom protocol documented in RFC style. It involves creating a data model adhering to library technical properties, implementing required commands in the CLI client, and utilizing provided server and client libraries to print all events and data. Network communication will be facilitated via TCP sockets.",
+      "tags": [
+        {
+          "name": "C",
+          "url": "https://en.wikipedia.org/wiki/C_(programming_language)"
+        },
+        {
+          "name": "TCP",
+          "url": "https://en.wikipedia.org/wiki/Transmission_Control_Protocol"
+        },
+        {
+          "name": "Socket",
+          "url": "https://en.wikipedia.org/wiki/Network_socket"
+        }
+      ],
+      "links": [
+        "https://github.com/TheoEwzZer/my_teams",
+        "https://github.com/TheoEwzZer/my_teams",
+        "none"
+      ],
+      "image": "images/projects/myteams.png",
+      "categories": ["School"]
+    },
+    {
+      "date": "2024-04",
+      "type": "School Project",
+      "title": "MyPandoc",
+      "description": "This project aims to develop a simplified version of Pandoc, allowing interaction with documents by converting them between formats such as JSON, XML, and Markdown.",
+      "tags": [
+        {
+          "name": "Haskell",
+          "url": "https://en.wikipedia.org/wiki/Haskell"
+        },
+        {
+          "name": "Stack",
+          "url": "https://en.wikipedia.org/wiki/Stack_(Haskell)"
+        },
+        {
+          "name": "Pandoc",
+          "url": "https://pandoc.org"
+        }
+      ],
+      "links": [
+        "https://github.com/TheoEwzZer/mypandoc",
+        "https://github.com/TheoEwzZer/mypandoc",
+        "none"
+      ],
+      "image": "images/projects/pandoc.png",
+      "categories": ["School"]
+    },
+    {
+      "date": "2024-04",
+      "type": "School Project",
+      "title": "Raytracer",
+      "description": "This project involves creating a raytracer program capable of generating images based on a scene description file. The program support primitives like spheres and planes, transformations including translation, and lighting features such as directional and ambient light. It output images to a PPM file. The scene configuration is defined in an external file.",
+      "tags": [
+        {
+          "name": "C++",
+          "url": "https://en.wikipedia.org/wiki/C++_(programming_language)"
+        },
+        {
+          "name": "OOP",
+          "url": "https://en.wikipedia.org/wiki/Object-oriented_programming"
+        },
+        {
+          "name": "Raytracer",
+          "url": "https://en.wikipedia.org/wiki/Ray_tracing_(graphics)"
+        }
+      ],
+      "links": [
+        "https://github.com/TheoEwzZer/raytracer",
+        "https://github.com/TheoEwzZer/raytracer",
+        "none"
+      ],
+      "image": "images/projects/raytracer.png",
+      "categories": ["School", "Simulations"]
+    },
+    {
+      "date": "2024-04",
+      "type": "School Project",
+      "title": "Panoramix",
+      "description": "This project aims to delve into thread and mutex programming by simulating a scenario where villagers consume magic potions to battle Roman soldiers. The program emulate this behavior, with each villager and the druid running in separate threads. The use of semaphores and mutexes is mandatory to ensure synchronization, and the program gracefully stop when all villagers' threads have concluded.",
+      "tags": [
+        {
+          "name": "C",
+          "url": "https://en.wikipedia.org/wiki/C_(programming_language)"
+        },
+        {
+          "name": "Thread",
+          "url": "https://en.wikipedia.org/wiki/Thread_(computing)"
+        },
+        {
+          "name": "Mutex",
+          "url": "https://en.wikipedia.org/wiki/Mutual_exclusion"
+        },
+        {
+          "name": "Semaphore",
+          "url": "https://en.wikipedia.org/wiki/Semaphore_(programming)"
+        }
+      ],
+      "links": [
+        "https://github.com/TheoEwzZer/panoramix",
+        "https://github.com/TheoEwzZer/panoramix",
+        "none"
+      ],
+      "image": "images/projects/panoramix.png",
+      "categories": ["School"]
+    },
+    {
+      "date": "2024-05",
+      "type": "School Project",
+      "title": "The Plazza",
+      "description": "This project aims to simulate a pizzeria, featuring a reception for new orders, multiple kitchens with several cooks, and the preparation of various pizzas. You'll address challenges such as load balancing, process and thread synchronization, and communication, utilizing tools like processes, inter-process communication (IPC), STL threads, and POSIX threads.",
+      "tags": [
+        {
+          "name": "C++",
+          "url": "https://en.wikipedia.org/wiki/C++_(programming_language)"
+        },
+        {
+          "name": "OOP",
+          "url": "https://en.wikipedia.org/wiki/Object-oriented_programming"
+        },
+        {
+          "name": "Thread",
+          "url": "https://en.wikipedia.org/wiki/Thread_(computing)"
+        },
+        {
+          "name": "Process",
+          "url": "https://en.wikipedia.org/wiki/Process_(computing)"
+        },
+        {
+          "name": "IPC",
+          "url": "https://en.wikipedia.org/wiki/Inter-process_communication"
+        },
+        {
+          "name": "POSIX",
+          "url": "https://en.wikipedia.org/wiki/POSIX"
+        },
+        {
+          "name": "STL",
+          "url": "https://en.wikipedia.org/wiki/Standard_Template_Library"
+        }
+      ],
+      "links": [
+        "https://github.com/TheoEwzZer/theplazza",
+        "https://github.com/TheoEwzZer/theplazza",
+        "none"
+      ],
+      "image": "images/projects/plazza.png",
+      "categories": ["School"]
     }
   ]
 }
