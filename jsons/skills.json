@@ -9,6 +9,11 @@
           "link": "https://en.wikipedia.org/wiki/C_(programming_language)"
         },
         {
+          "name": "C++",
+          "logo": "/shapes/skills/C++.svg",
+          "link": "https://en.wikipedia.org/wiki/C++_(programming_language)"
+        },
+        {
           "name": "C#",
           "logo": "/shapes/skills/C_sharp.svg",
           "link": "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"
@@ -27,6 +32,16 @@
           "name": "Unix",
           "logo": "/shapes/skills/Unix.svg",
           "link": "https://en.wikipedia.org/wiki/Unix"
+        },
+        {
+          "name": "Haskell",
+          "logo": "/shapes/skills/Haskell.svg",
+          "link": "https://en.wikipedia.org/wiki/Haskell"
+        },
+        {
+          "name": "Assembly",
+          "logo": "/shapes/skills/ASM.svg",
+          "link": "https://en.wikipedia.org/wiki/Assembly_language"
         }
       ]
     },
@@ -39,9 +54,19 @@
           "link": "https://unity.com/"
         },
         {
+          "name": "SFML",
+          "logo": "/shapes/skills/Sfml.svg",
+          "link": "https://www.sfml-dev.org/index.php"
+        },
+        {
           "name": "CSFML",
           "logo": "/shapes/skills/Sfml.svg",
           "link": "https://www.sfml-dev.org/index.php"
+        },
+        {
+          "name": "SDL",
+          "logo": "/shapes/skills/SDL.svg",
+          "link": "https://en.wikipedia.org/wiki/Simple_DirectMedia_Layer"
         }
       ]
     },
