@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.0](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v1.6.1...v1.7.0) (2024-07-18)
+
+
+### Features
+
+* add button to download CV ([9685331](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/968533184595199baf90664812e22073ab6724d2))
+
 ## [1.6.1](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v1.6.0...v1.6.1) (2024-06-07)
 
 
