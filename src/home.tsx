@@ -43,13 +43,10 @@ export default function Home(): React.ReactElement {
   };
 
   const home_events: () => void = (): void => {
-    const content: HTMLElement | null = document.querySelector(
-      "#home_section .content"
-    );
+    const content: HTMLElement | null = document.querySelector("#home_section .content");
     if (content) {
       const rect: DOMRect = content.getBoundingClientRect();
-      const section: HTMLElement | null =
-        document.querySelector("#home_section");
+      const section: HTMLElement | null = document.querySelector("#home_section");
       if (section) {
         section.style.minHeight = rect.height + 90 + "px";
       }
@@ -63,10 +60,16 @@ export default function Home(): React.ReactElement {
 
   return (
     <>
-      <a href="#home" id="home">
+      <a
+        href="#home"
+        id="home"
+      >
         {" "}
       </a>
-      <section className="section" id="home_section">
+      <section
+        className="section"
+        id="home_section"
+      >
         <div id="particles">
           <Particles />
         </div>
@@ -85,20 +88,56 @@ export default function Home(): React.ReactElement {
             </a>{" "}
             computer school.
           </p>
-          <div className="home_button in_animation">
-            <a className="button" href="#about">
-              <p>Get Started</p>
-              <svg
-                className="button_arrow"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 17.69 17.39"
+          <div className="home_buttons">
+            <div className="home_button in_animation">
+              <a
+                className="button"
+                href="#about"
               >
-                <g>
-                  <path className="path_1" d="M8.9 12.4 L8.9 12.4" />
-                  <path className="path_2" d="M16.2 5 8.9 12.4 1.5 5" />
-                </g>
-              </svg>
-            </a>
+                <p>Get Started</p>
+                <svg
+                  className="button_arrow"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 17.69 17.39"
+                >
+                  <g>
+                    <path
+                      className="path_1"
+                      d="M8.9 12.4 L8.9 12.4"
+                    />
+                    <path
+                      className="path_2"
+                      d="M16.2 5 8.9 12.4 1.5 5"
+                    />
+                  </g>
+                </svg>
+              </a>
+            </div>
+            <div className="home_button in_animation">
+              <a
+                className="button"
+                href="CV.pdf"
+                download="CV_Theo_Fabiano.pdf"
+              >
+                <p>Download Curriculum Vitae</p>
+                <svg
+                  className="button_arrow"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 17.69 17.39"
+                >
+                  <g>
+                    <path
+                      className="path_1"
+                      d="M8.9 12.4 L8.9 12.4"
+                    />
+                    <path
+                      className="path_2"
+                      d="M16.2 5 8.9 12.4 1.5 5"
+                    />
+                  </g>
+                </svg>
+              </a>
+            </div>
           </div>
         </div>
       </section>

@@ -59,3 +59,9 @@
 #home_section .home_button {
   margin-top: 50px;
 }
+
+#home_section .home_buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
