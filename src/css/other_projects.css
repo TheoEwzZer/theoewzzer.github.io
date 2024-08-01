@@ -127,7 +127,7 @@
 
 #projects_section .other_project .text {
   font-family: calibre_regular;
-  font-size: Min(Max(15px, 3vw), 17px);
+  font-size: 20px;
   text-align: start;
   color: var(--fade_white);
   margin-bottom: 25px;
