@@ -1,5 +1,22 @@
 # Changelog
 
+## [2.0.0](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v1.7.0...v2.0.0) (2024-08-01)
+
+
+### ⚠ BREAKING CHANGES
+
+* update particles, new UI
+
+### Features
+
+* add profil picture ([90391c4](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/90391c401ff9620c2d7749219ea505114aadc201))
+* update particles, new UI ([9167bcd](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/9167bcdadac9cb5792775f78e9b82436abfaf0f2))
+
+
+### Bug Fixes
+
+* update Skills component to render differently on mobile devices ([e2da6be](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/e2da6be6273b7605a65d863bb1209e7375b9854e))
+
 ## [1.7.0](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v1.6.1...v1.7.0) (2024-07-18)
 
 
