@@ -35,14 +35,14 @@ export default function Header(): React.ReactElement {
 
       const menu_in: () => void = (): void => {
         if (menu_div) {
-          menu_div.style.transform = "translateX(0px)";
-          menu_div.style.boxShadow = "-10px 0px 30px rgba(0, 0, 0, 0.7)";
+          menu_div.style.transform = "translateY(0px)";
+          menu_div.style.boxShadow = "0 0 30px rgba(0,0,0,.1)";
         }
       };
 
       const menu_out: () => void = (): void => {
         if (menu_div) {
-          menu_div.style.transform = "translateX(clamp(0px, 100%, 400px))";
+          menu_div.style.transform = "translateY(-100%)";
           menu_div.style.boxShadow = "none";
         }
       };
@@ -110,7 +110,7 @@ export default function Header(): React.ReactElement {
         } else {
           if (headerDiv) {
             headerDiv.style.height = "70px";
-            headerDiv.style.boxShadow = "0px 5px 30px rgba(0, 0, 0, 0.7)";
+            headerDiv.style.boxShadow = "0 0 30px rgba(0,0,0,.1)";
             headerDiv.style.pointerEvents = "all";
           }
 
@@ -118,7 +118,7 @@ export default function Header(): React.ReactElement {
             if (navigator.userAgent.indexOf("Firefox") > 0) {
               header.style.backgroundColor = "var(--dark_blue)";
             } else {
-              header.style.backgroundColor = "var(--fade_dark_blue)";
+              header.style.backgroundColor = "var(--navbar_color)";
             }
             header.style.backdropFilter = "blur(8px)";
           }
@@ -144,7 +144,7 @@ export default function Header(): React.ReactElement {
             headerDiv.style.top = "0px";
 
             if (header_detached) {
-              headerDiv.style.boxShadow = "0px 5px 20px rgba(0, 0, 0, 0.8)";
+              headerDiv.style.boxShadow = "0 0 30px rgba(0,0,0,.1)";
             }
           }
         }

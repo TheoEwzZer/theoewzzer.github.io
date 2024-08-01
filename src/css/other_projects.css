@@ -18,7 +18,7 @@
   justify-content: center;
   align-items: center;
   height: 100%;
-  background-color: var(--purple);
+  background-color: var(--yellow);
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   border-radius: 15px;
   transition: opacity 0.5s ease-in-out, box-shadow 0.4s ease,
@@ -112,8 +112,10 @@
 
 #projects_section .other_project .project_title {
   font-family: calibre_semi_bold;
-  font-size: 28px;
-  color: var(--white);
+  font-weight: 900;
+  line-height: 1.05;
+  font-size: Min(Max(24px, 5vw), 30px);
+  color: var(--fade_white);
   text-decoration: none;
   margin-bottom: 12px;
   transition: color 0.2s ease;
@@ -125,7 +127,7 @@
 
 #projects_section .other_project .text {
   font-family: calibre_regular;
-  font-size: 20px;
+  font-size: Min(Max(15px, 3vw), 17px);
   text-align: start;
   color: var(--fade_white);
   margin-bottom: 25px;

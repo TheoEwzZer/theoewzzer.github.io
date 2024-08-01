@@ -53,16 +53,16 @@
 }
 
 body {
-  --light_blue: #56dcfc;
-  --blue: #197dff;
+  --light_blue: #33a7dc;
+  --blue: #0091d3;
   --fade_light_blue: rgba(86, 220, 252, 0.15);
   --light_gray: #8ea9bf;
   --white: #f6f9fc;
-  --fade_white: rgb(191, 182, 216);
+  --fade_white: #1f485e;
   --dark_blue: #101d30;
-  --fade_dark_blue: rgba(16, 29, 48, 0.9);
+  --navbar_color: #ffffff;
   --black_title: #2b3954;
   --black_text: #425466;
-  --dark_purple: rgb(41, 41, 85);
-  --purple: rgb(52, 52, 102);
+  --background: #22485f;
+  --yellow: #fdfd89;
 }

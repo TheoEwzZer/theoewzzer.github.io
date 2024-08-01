@@ -38,7 +38,7 @@
 }
 #about_section .about_content .p_1 {
   font-family: calibre_regular;
-  font-size: 20px;
+  font-size: Min(Max(15px, 3vw), 17px);
   color: var(--black_text);
   line-height: 1.3;
 }

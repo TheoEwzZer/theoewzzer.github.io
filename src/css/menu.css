@@ -5,12 +5,12 @@
   flex-direction: column;
   position: fixed;
   z-index: 100;
-  width: clamp(0px, 100%, 400px);
+  width: clamp(0px, 100%, 100%);
   height: 100%;
   background-color: var(--dark_blue);
   right: 0px;
-  transform: translateX(clamp(0px, 100%, 400px));
-  transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+  transform: translateY(-100%);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 #menu_div .menu_icon {
@@ -49,7 +49,7 @@
   pointer-events: all;
   padding: 15px 22.5px;
   font-family: raleway_semi_bold;
-  font-size: 20px;
+  font-size: Min(Max(15px, 3vw), 17px);
   color: var(--white);
   text-decoration: none;
 }

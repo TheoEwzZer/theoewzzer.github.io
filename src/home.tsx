@@ -73,6 +73,7 @@ export default function Home(): React.ReactElement {
         <div className="content">
           <span className="hi in_animation">Hi, my name is</span>
           <h1 className="name in_animation">Théo Fabiano.</h1>
+          <span className="title in_animation">I'm a FullStack Developer.</span>
           <p className="bio in_animation">
             I'm an {age}-year-old French student at the{" "}
             <a
