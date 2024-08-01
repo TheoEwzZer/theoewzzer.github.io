@@ -169,7 +169,11 @@ export default function Header(): React.ReactElement {
       <div id="header_div">
         <header id="header">
           <nav className="nav">
-            <div></div>
+            <div className="logo">
+              <a className="in_animation" href="https://theofabiano.tech">
+                <img src="favicon.ico" alt="logo" width="35px" height="35px" />
+              </a>
+            </div>
             <div className="menu">
               <ol>
                 <li className="home in_animation">
