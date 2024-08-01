@@ -1,9 +1,41 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { is_in_viewport, sleep } from "./utils";
+
 import "./css/about.css";
 import "./css/properties.css";
 import "./css/style.css";
 
 export default function About(): React.ReactElement {
+  useEffect((): (() => void) => {
+    let done: boolean = false;
+    const elements: NodeListOf<Element> = document.querySelectorAll(
+      "#about_section .in_animation"
+    );
+    const section: Element | null = document.querySelector(
+      "#about_section .photo"
+    );
+
+    const inAnimationCheck: () => Promise<void> = async (): Promise<void> => {
+      if (!done && section && is_in_viewport(section as HTMLElement)) {
+        for (let i of elements) {
+          (i as HTMLElement).style.clipPath = "circle(50%)";
+          await sleep(300);
+        }
+        done = true;
+      }
+    };
+
+    window.addEventListener("scroll", inAnimationCheck);
+    window.addEventListener("resize", inAnimationCheck);
+
+    inAnimationCheck();
+
+    return (): void => {
+      window.removeEventListener("scroll", inAnimationCheck);
+      window.removeEventListener("resize", inAnimationCheck);
+    };
+  }, []);
+
   return (
     <>
       <a href="#about" id="about">
@@ -38,6 +70,15 @@ export default function About(): React.ReactElement {
               . <br />
               <br />
             </p>
+            <div className="photo">
+              <img
+                className="in_animation"
+                src="photo.jpg"
+                alt="Me"
+                width="760px"
+                height="760px"
+              />
+            </div>
           </div>
         </div>
       </section>
