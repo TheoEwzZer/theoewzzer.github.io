@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.0](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v2.0.0...v2.1.0) (2024-08-01)
+
+
+### Features
+
+* add logo to header navigation bar ([2e0b808](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/2e0b808f180c5fec17e57c6a95c2758a9f057ff0))
+
 ## [2.0.0](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v1.7.0...v2.0.0) (2024-08-01)
 
 
