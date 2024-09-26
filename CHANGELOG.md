@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.2.0](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v2.1.0...v2.2.0) (2024-09-26)
+
+
+### Features
+
+* add competences in experiences ([fc6425f](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/fc6425fd966a17a0478bc6ba669438ae89837804))
+
 ## [2.1.0](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v2.0.0...v2.1.0) (2024-08-01)
 
 
