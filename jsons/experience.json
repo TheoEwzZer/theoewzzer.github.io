@@ -53,15 +53,15 @@
       "description": "As a teaching assistant at Epitech Marseille, I support students in their academic careers by monitoring their progress and leading various teaching activities. My responsibilities include supervising projects, managing training workshops and taking an active part in school life. I also liaise between students and teaching staff to ensure the smooth running of educational programs.",
       "tags": [
         {
-          "name": "Encadrement pédagogique",
+          "name": "Educational supervision",
           "url": ""
         },
-        { "name": "Animation d'ateliers", "url": "" },
+        { "name": "Workshop facilitation", "url": "" },
         {
-          "name": "Gestion de projets éducatifs",
+          "name": "Management of educational projects",
           "url": ""
         },
-        { "name": "Communication et écoute active", "url": "" }
+        { "name": "Communication and active listening", "url": "" }
       ],
       "link": "https://www.epitech.eu",
       "image": "images/experience/epitech.jpg"
