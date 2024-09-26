@@ -5,7 +5,7 @@
       "end_date": "2023-12-29",
       "type": "Intern Developer",
       "title": "Enedis",
-      "description": "Development of tools at the Enedis Artificial Intelligence Laboratory to facilitate network interventions.",
+      "description": "As part of the Smart Grid & Electric Mobility team, I developed tools to facilitate interventions on the Enedis network. My missions included developing web applications for data management, optimizing intervention processes, and creating intuitive user interfaces. I also worked closely with the field teams to understand their needs and propose appropriate solutions, while respecting the network's safety and performance constraints.",
       "tags": [
         {
           "name": "Python",
@@ -29,7 +29,7 @@
       "tags": [
         {
           "name": "C",
-          "url": "https://en.wikipedia.org/wiki/C_(langage) "
+          "url": "https://en.wikipedia.org/wiki/C_(langage)"
         },
         { "name": "Python", "url": "https://www.python.org" },
         {
@@ -41,6 +41,27 @@
           "name": "GitHub Actions",
           "url": "https://github.com/features/actions"
         }
+      ],
+      "link": "https://www.epitech.eu",
+      "image": "images/experience/epitech.jpg"
+    },
+    {
+      "start_date": "2024-09-20",
+      "end_date": "2025-02-28",
+      "type": "Teaching Assistant",
+      "title": "Epitech",
+      "description": "As a teaching assistant at Epitech Marseille, I support students in their academic careers by monitoring their progress and leading various teaching activities. My responsibilities include supervising projects, managing training workshops and taking an active part in school life. I also liaise between students and teaching staff to ensure the smooth running of educational programs.",
+      "tags": [
+        {
+          "name": "Encadrement pédagogique",
+          "url": ""
+        },
+        { "name": "Animation d'ateliers", "url": "" },
+        {
+          "name": "Gestion de projets éducatifs",
+          "url": ""
+        },
+        { "name": "Communication et écoute active", "url": "" }
       ],
       "link": "https://www.epitech.eu",
       "image": "images/experience/epitech.jpg"
