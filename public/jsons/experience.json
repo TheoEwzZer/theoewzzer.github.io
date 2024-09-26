@@ -61,7 +61,13 @@
           "name": "Management of educational projects",
           "url": ""
         },
-        { "name": "Communication and active listening", "url": "" }
+        { "name": "Communication and active listening", "url": "" },
+        { "name": "C", "url": "https://en.wikipedia.org/wiki/C_(langage)" },
+        { "name": "Python", "url": "https://www.python.org" },
+        { "name": "HTML", "url": "https://en.wikipedia.org/wiki/HTML" },
+        { "name": "CSS", "url": "https://en.wikipedia.org/wiki/CSS" },
+        { "name": "JavaScript", "url": "https://en.wikipedia.org/wiki/JavaScript" },
+        { "name": "React", "url": "https://reactjs.org" }
       ],
       "link": "https://www.epitech.eu",
       "image": "images/experience/epitech.jpg"
