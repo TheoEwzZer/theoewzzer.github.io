@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.3.0](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v2.2.0...v2.3.0) (2024-10-10)
+
+
+### Features
+
+* add Algorithmics ([dfec3b1](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/dfec3b1e4909d97d071a1bcaba419028a56e7c29))
+
 ## [2.2.0](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v2.1.0...v2.2.0) (2024-09-26)
 
 
