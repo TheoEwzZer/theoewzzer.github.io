@@ -21,31 +21,6 @@
       "image": "images/experience/Enedis.webp"
     },
     {
-      "start_date": "2022-10-04",
-      "end_date": "2027-07-01",
-      "type": "Student",
-      "title": "Epitech",
-      "description": "As a student at Epitech, I have the opportunity to follow a course of excellence in the field of computer science. The school enables me to develop solid skills in programming and software development.",
-      "tags": [
-        {
-          "name": "C",
-          "url": "https://en.wikipedia.org/wiki/C_(langage)"
-        },
-        { "name": "Python", "url": "https://www.python.org" },
-        {
-          "name": "JavaScript",
-          "url": "https://en.wikipedia.org/wiki/JavaScript"
-        },
-        { "name": "Docker", "url": "https://www.docker.com" },
-        {
-          "name": "GitHub Actions",
-          "url": "https://github.com/features/actions"
-        }
-      ],
-      "link": "https://www.epitech.eu",
-      "image": "images/experience/epitech.jpg"
-    },
-    {
       "start_date": "2024-09-20",
       "end_date": "2025-02-28",
       "type": "Teaching Assistant",
@@ -71,6 +46,21 @@
       ],
       "link": "https://www.epitech.eu",
       "image": "images/experience/epitech.jpg"
+    },
+    {
+      "start_date": "2024-10-01",
+      "end_date": "2025-02-28",
+      "type": "Teacher",
+      "title": "Algorithmics",
+      "description": "As a Unity Engine teacher, I teach young people aged 12 to 15 the basics of video game development and programming. My role is to introduce these young talents to the creation of interactive 2D and 3D games, using Unity, a professional game engine. Through age-appropriate teaching sessions, I make learning fun and accessible, while developing their creativity and problem-solving skills.",
+      "tags": [
+        {
+          "name": "Unity",
+          "url": "https://unity.com"
+        }
+      ],
+      "link": "https://marseille11.alg.academy/fr",
+      "image": "images/experience/algo.png"
     }
   ]
 }
