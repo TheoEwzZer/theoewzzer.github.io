@@ -42,6 +42,11 @@
           "name": "Assembly",
           "logo": "/shapes/skills/ASM.svg",
           "link": "https://en.wikipedia.org/wiki/Assembly_language"
+        },
+        {
+          "name": "Lua",
+          "logo": "/shapes/skills/lua.svg",
+          "link": "https://www.lua.org/"
         }
       ]
     },
@@ -67,6 +72,11 @@
           "name": "SDL",
           "logo": "/shapes/skills/SDL.svg",
           "link": "https://en.wikipedia.org/wiki/Simple_DirectMedia_Layer"
+        },
+        {
+          "name": "Unreal Engine",
+          "logo": "/shapes/skills/unrealEngine.svg",
+          "link": "https://www.unrealengine.com/"
         }
       ]
     },
@@ -217,6 +227,16 @@
           "name": "Supabase",
           "logo": "/shapes/skills/supabase.svg",
           "link": "https://supabase.io/"
+        },
+        {
+          "name": "Appwrite",
+          "logo": "/shapes/skills/appwrite.svg",
+          "link": "https://appwrite.io/"
+        },
+        {
+          "name": "Clerk",
+          "logo": "/images/skills/clerk.png",
+          "link": "https://clerk.dev/"
         }
       ]
     },

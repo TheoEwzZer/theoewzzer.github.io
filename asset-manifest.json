@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b858fa38.css",
-    "main.js": "/static/js/main.8d235b79.js",
+    "main.css": "/static/css/main.91405a7a.css",
+    "main.js": "/static/js/main.b860f172.js",
     "static/media/Raleway-Medium.ttf": "/static/media/Raleway-Medium.1af9f1e9f3fd4766df83.ttf",
     "static/media/Raleway-SemiBold.ttf": "/static/media/Raleway-SemiBold.243af299ad3631bfc369.ttf",
     "static/media/Raleway-Bold.ttf": "/static/media/Raleway-Bold.d1a96e2aa6257c864d4d.ttf",
@@ -12,11 +12,11 @@
     "static/media/CalibreRegular.otf": "/static/media/CalibreRegular.84b1f95cc4641415a24e.otf",
     "static/media/CalibreMedium.otf": "/static/media/CalibreMedium.284460eeb8ca28df9954.otf",
     "index.html": "/index.html",
-    "main.b858fa38.css.map": "/static/css/main.b858fa38.css.map",
-    "main.8d235b79.js.map": "/static/js/main.8d235b79.js.map"
+    "main.91405a7a.css.map": "/static/css/main.91405a7a.css.map",
+    "main.b860f172.js.map": "/static/js/main.b860f172.js.map"
   },
   "entrypoints": [
-    "static/css/main.b858fa38.css",
-    "static/js/main.8d235b79.js"
+    "static/css/main.91405a7a.css",
+    "static/js/main.b860f172.js"
   ]
 }
