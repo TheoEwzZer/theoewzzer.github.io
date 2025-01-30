@@ -35,7 +35,7 @@
 
 #footer_section .footer_content span,
 #footer_section .footer_content p {
-  font-family: proxima_nova_semi_bold;
+  font-family: proxima_nova_semi_bold, sans-serif;
   font-size: 15px;
   color: white;
   text-align: center;

@@ -30,13 +30,13 @@
 
 #projects_section .sort_choices .label {
   color: var(--white);
-  font-family: raleway_semi_bold;
+  font-family: raleway_semi_bold, sans-serif;
   font-size: 17px;
 }
 
 #projects_section .sort_choices .choice {
   color: var(--light_blue);
-  font-family: raleway_semi_bold;
+  font-family: raleway_semi_bold, sans-serif;
   font-size: 15px;
   cursor: pointer;
   border-radius: 100px;
@@ -138,7 +138,7 @@
   width: 100%;
   flex-wrap: wrap;
   gap: 7px;
-  font-family: raleway_medium;
+  font-family: raleway_medium, sans-serif;
   font-size: 16px;
   white-space: nowrap;
   color: var(--light_blue);
@@ -155,7 +155,7 @@
   width: 100%;
   flex-wrap: wrap;
   gap: 7px;
-  font-family: raleway_medium;
+  font-family: raleway_medium, sans-serif;
   font-size: 16px;
   white-space: nowrap;
   color: var(--light_blue);
@@ -170,7 +170,7 @@
 }
 
 #projects_section .project_text .project_title {
-  font-family: calibre_semi_bold;
+  font-family: calibre_semi_bold, sans-serif;
   font-size: 32px;
   color: var(--white);
   text-decoration: none;
@@ -202,7 +202,7 @@
 }
 
 #projects_section .project_text .text p {
-  font-family: calibre_regular;
+  font-family: calibre_regular, sans-serif;
   font-size: 20px;
   text-align: start;
   color: var(--fade_white);
@@ -230,7 +230,7 @@
 }
 
 #projects_section .project_text .tags a {
-  font-family: raleway_semi_bold;
+  font-family: raleway_semi_bold, sans-serif;
   font-size: 16px;
   color: var(--light_blue);
   text-decoration: none;
@@ -294,7 +294,7 @@
   color: var(--background);
   padding: 6px 12px 6px 12px;
   background-color: var(--color);
-  font-family: raleway_bold;
+  font-family: raleway_bold, sans-serif;
   white-space: nowrap;
   font-size: 15px;
   border-radius: 20px;

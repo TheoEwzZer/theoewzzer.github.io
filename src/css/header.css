@@ -67,7 +67,7 @@
   display: flex;
   pointer-events: all;
   padding: 10px 15px;
-  font-family: raleway_semi_bold;
+  font-family: raleway_semi_bold, sans-serif;
   font-size: 15px;
   color: var(--white);
   text-decoration: none;

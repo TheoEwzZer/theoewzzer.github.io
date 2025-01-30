@@ -5,7 +5,7 @@ import Experience from "./experience";
 import Footer from "./footer";
 import Header from "./header";
 import Home from "./home";
-import LCP from "./lcp";
+import Lcp from "./lcp";
 import Loading from "./loading";
 import Projects from "./projects";
 import Safari from "./safari";
@@ -16,7 +16,7 @@ export default function App(): React.ReactElement {
     <>
       <Loading />
       <Safari />
-      <LCP />
+      <Lcp />
       <Header />
       <Home />
       <About />

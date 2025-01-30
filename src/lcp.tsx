@@ -2,7 +2,7 @@ import React from "react";
 import "./css/properties.css";
 import "./css/style.css";
 
-export default function LCP(): React.ReactElement {
+export default function Lcp(): React.ReactElement {
   React.useEffect((): void => {
     window.onload = (): void => {
       setTimeout((): void => {

@@ -111,7 +111,7 @@
 }
 
 #projects_section .other_project .project_title {
-  font-family: calibre_semi_bold;
+  font-family: calibre_semi_bold, sans-serif;
   font-weight: 900;
   line-height: 1.05;
   font-size: Min(Max(24px, 5vw), 30px);
@@ -126,7 +126,7 @@
 }
 
 #projects_section .other_project .text {
-  font-family: calibre_regular;
+  font-family: calibre_regular, sans-serif;
   font-size: 20px;
   text-align: start;
   color: var(--fade_white);
@@ -143,7 +143,7 @@
 }
 
 #projects_section .other_project .tags span {
-  font-family: raleway_semi_bold;
+  font-family: raleway_semi_bold, sans-serif;
   font-size: 15px;
   color: var(--light_blue);
   white-space: nowrap;

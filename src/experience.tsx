@@ -28,7 +28,7 @@ export default function Experience(): React.ReactElement {
   const [data, setData] = React.useState<Data | null>(null);
 
   const current_date: Date = new Date();
-  let done: Boolean[] = [];
+  let done: boolean[] = [];
   let elements: NodeListOf<HTMLElement> = document.querySelectorAll(
     "#experience_section .in_animation"
   );
@@ -64,43 +64,40 @@ export default function Experience(): React.ReactElement {
     fetchData();
   }, []);
 
-  const add_job: (job: Job, inverted: boolean) => void = (
+  const formatDate: (date: string) => string = (date: string): string => {
+    let formattedDate: string = new Date(date).toLocaleDateString("en-US", {
+      year: "numeric",
+      month: "long",
+    });
+    return formattedDate.charAt(0).toUpperCase() + formattedDate.slice(1);
+  };
+
+  const generateTags: (
+    tags: {
+      url: string;
+      name: string;
+    }[]
+  ) => string = (tags: { url: string; name: string }[]): string => {
+    return tags
+      .map(
+        (tag: { url: string; name: string }): string =>
+          `<a href="${tag.url}" target="_blank">${tag.name}</a>`
+      )
+      .join("");
+  };
+
+  const generateJobHTML: (
     job: Job,
+    job_date: string,
+    tags: string,
     inverted: boolean
-  ): void => {
-    if (data) {
-      let tags: string = "";
-      let job_start_date: string = new Date(job.start_date).toLocaleDateString(
-        "en-US",
-        {
-          year: "numeric",
-          month: "long",
-        }
-      );
-      job_start_date =
-        job_start_date.charAt(0).toUpperCase() + job_start_date.slice(1);
-      let job_end_date: string = new Date(job.end_date).toLocaleDateString(
-        "en-US",
-        {
-          year: "numeric",
-          month: "long",
-        }
-      );
-      job_end_date =
-        job_end_date.charAt(0).toUpperCase() + job_end_date.slice(1);
-
-      let job_date: string = "From " + job_start_date + " to " + job_end_date;
-
-      if (new Date(job.end_date) > current_date) {
-        job_date = "Since " + job_start_date;
-      }
-
-      for (let tag of job.tags)
-        tags += `<a href="${tag.url}" target="_blank">${tag.name}</a>`;
-
-      if (window.innerWidth > 780 && experienceContent) {
-        experienceContent.innerHTML +=
-          `
+  ) => string = (
+    job: Job,
+    job_date: string,
+    tags: string,
+    inverted: boolean
+  ): string => {
+    return `
       <div class="in_animation job ${inverted ? "inverted" : ""}">
         <div class="job_text">
           <div class="type">
@@ -109,42 +106,75 @@ export default function Experience(): React.ReactElement {
             <span>${job.type}</span>
           </div>
           <a class="job_title" href="${job.link}" target="_blank">${
-            job.title
-          }</a>
+      job.title
+    }</a>
           <div class="text"><p>${job.description}</p></div>
-          <div class="tags">` +
-          tags +
-          `</div>
+          <div class="tags">${tags}</div>
         </div>
         <div class="job_view">
           <a ${is_safari() ? 'class="safari_fix"' : ""} href="${
-            job.link
-          }" target="_blank">
+      job.link
+    }" target="_blank">
             <img src="${
               job.image
             }" alt="${job.title.toLowerCase()} image" width="1440px" height="810px"/>
           </a>
         </div>
       </div>`;
+  };
+
+  const generateMobileJobHTML: (
+    job: Job,
+    job_date: string,
+    tags: string
+  ) => string = (job: Job, job_date: string, tags: string): string => {
+    return `
+      <div class="in_animation job ${
+        is_safari() ? "safari_fix" : ""
+      }" style="background-image: url(${job.image});">
+        <div class="job_text">
+          <div class="type">
+            <span>${job.type}</span>
+            <span>•</span>
+            <span>${job_date}</span>
+          </div>
+          <a class="job_title" href="${job.link}" target="_blank">${
+      job.title
+    }</a>
+          <div class="text"><p>${job.description}</p></div>
+          <div class="tags">${tags}</div>
+        </div>
+      </div>`;
+  };
+
+  const add_job: (job: Job, inverted: boolean) => void = (
+    job: Job,
+    inverted: boolean
+  ): void => {
+    if (data) {
+      const job_start_date: string = formatDate(job.start_date);
+      const job_end_date: string = formatDate(job.end_date);
+      let job_date: string = `From ${job_start_date} to ${job_end_date}`;
+
+      if (new Date(job.end_date) > current_date) {
+        job_date = `Since ${job_start_date}`;
+      }
+
+      const tags: string = generateTags(job.tags);
+
+      if (window.innerWidth > 780 && experienceContent) {
+        experienceContent.innerHTML += generateJobHTML(
+          job,
+          job_date,
+          tags,
+          inverted
+        );
       } else if (experienceContent) {
-        experienceContent.innerHTML +=
-          `
-				<div class="in_animation job ${
-          is_safari() ? "safari_fix" : ""
-        }" style="background-image: url(${job.image});">
-					<div class="job_text"">
-						<div class="type">
-							<span>${job.type}</span>
-							<span>•</span>
-							<span>${job_date}</span>
-						</div>
-						<a class="job_title" href="${job.link}" target="_blank">${job.title}</a>
-						<div class="text"><p>${job.description}</p></div>
-						<div class="tags">` +
-          tags +
-          `</div>
-					</div>
-				</div>`;
+        experienceContent.innerHTML += generateMobileJobHTML(
+          job,
+          job_date,
+          tags
+        );
       }
     }
   };
@@ -173,12 +203,9 @@ export default function Experience(): React.ReactElement {
         add_job(job, inverted);
       }
 
-      done = [];
       elements = document.querySelectorAll("#experience_section .in_animation");
 
-      for (let i: number = 0; i < elements.length; i++) {
-        done.push(false);
-      }
+      done = Array(elements.length).fill(false);
 
       in_animation_check();
     }

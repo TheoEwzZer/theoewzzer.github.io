@@ -11,7 +11,7 @@ export default function About(): React.ReactElement {
     const elements: NodeListOf<Element> = document.querySelectorAll(
       "#about_section .in_animation"
     );
-    const section: Element | null = document.querySelector(
+    const section: HTMLElement | null = document.querySelector(
       "#about_section .photo"
     );
 

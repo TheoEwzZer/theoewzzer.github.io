@@ -101,7 +101,7 @@
   width: 100%;
   flex-wrap: wrap;
   gap: 7px;
-  font-family: raleway_medium;
+  font-family: raleway_medium, sans-serif;
   font-size: 16px;
   white-space: nowrap;
   color: var(--light_blue);
@@ -116,7 +116,7 @@
 }
 
 #experience_section .job_text .job_title {
-  font-family: calibre_semi_bold;
+  font-family: calibre_semi_bold, sans-serif;
   font-size: 32px;
   color: var(--white);
   text-decoration: none;
@@ -148,7 +148,7 @@
 }
 
 #experience_section .job_text .text p {
-  font-family: calibre_regular;
+  font-family: calibre_regular, sans-serif;
   font-size: 20px;
   text-align: start;
   color: var(--fade_white);
@@ -176,7 +176,7 @@
 }
 
 #experience_section .job_text .tags a {
-  font-family: raleway_semi_bold;
+  font-family: raleway_semi_bold, sans-serif;
   font-size: 16px;
   color: var(--light_blue);
   text-decoration: none;

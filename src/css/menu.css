@@ -48,7 +48,7 @@
   display: flex;
   pointer-events: all;
   padding: 15px 22.5px;
-  font-family: raleway_semi_bold;
+  font-family: raleway_semi_bold, sans-serif;
   font-size: 20px;
   color: var(--white);
   text-decoration: none;
