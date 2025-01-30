@@ -957,6 +957,57 @@
       ],
       "image": "images/projects/plazza.png",
       "categories": ["School"]
+    },
+    {
+      "date": "2024-10",
+      "type": "Personal Project",
+      "title": "Taskify",
+      "description": "Taskify is a comprehensive task management platform that combines the best features of Notion, Trello, and Jira. Built with Next.js, it offers multiple views (Kanban, Table, Calendar) for task organization within workspaces and projects. Key features include workspace invitation system, image upload capabilities, advanced search and filtering, analytics dashboard, and role-based permissions. The platform leverages Appwrite SDK for backend services, implements OAuth and email authentication, and exposes a RESTful API built with Hono.js. The responsive design is crafted using Shadcn UI and TailwindCSS, ensuring a seamless experience across all devices.",
+      "tags": [
+        {
+          "name": "Typescript",
+          "url": "https://www.typescriptlang.org"
+        },
+        {
+          "name": "Next.js",
+          "url": "https://nextjs.org"
+        },
+        {
+          "name": "React",
+          "url": "https://react.dev"
+        },
+        {
+          "name": "HTML",
+          "url": "https://en.wikipedia.org/wiki/HTML"
+        },
+        {
+          "name": "CSS",
+          "url": "https://en.wikipedia.org/wiki/CSS"
+        },
+        {
+          "name": "Tailwind",
+          "url": "https://tailwindcss.com"
+        },
+        {
+          "name": "Shadcn UI",
+          "url": "https://ui.shadcn.com"
+        },
+        {
+          "name": "Appwrite",
+          "url": "https://appwrite.io"
+        },
+        {
+          "name": "Hono",
+          "url": "https://hono.dev"
+        }
+      ],
+      "links": [
+        "https://gettaskify.vercel.app",
+        "https://github.com/TheoEwzZer/Taskify",
+        "https://gettaskify.vercel.app"
+      ],
+      "image": "images/projects/taskify.png",
+      "categories": ["Personal", "Web"]
     }
   ]
 }

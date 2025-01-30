@@ -61,6 +61,29 @@
       ],
       "link": "https://marseille11.alg.academy/fr",
       "image": "images/experience/algo.png"
+    },
+    {
+      "start_date": "2025-02-01",
+      "end_date": "2025-04-01",
+      "type": "Lead Developer",
+      "title": "Seizen",
+      "description": "As Lead Developer for Seizen, I'm responsible for developing a gaming server on Nanos World, the new generation sandbox game inspired by Garry's Mod. I oversee the implementation of gameplay features, server infrastructure, and custom game modes using Lua scripting. Working with Unreal Engine and React for the web interface, I ensure an engaging player experience while maintaining server performance and stability.",
+      "tags": [
+        {
+          "name": "React",
+          "url": "https://reactjs.org"
+        },
+        {
+          "name": "Lua",
+          "url": "https://www.lua.org"
+        },
+        {
+          "name": "Unreal Engine",
+          "url": "https://www.unrealengine.com"
+        }
+      ],
+      "link": "https://discord.gg/E9UJkpcV4J",
+      "image": "images/experience/seizen.jpg"
     }
   ]
 }
