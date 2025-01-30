@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.4.0](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v2.3.0...v2.4.0) (2025-01-30)
+
+
+### Features
+
+* add skills, projects and experiences ([d1a9ac7](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/d1a9ac7fa7ef7020dfa81bdd2c3c167b14cc1a0b))
+
 ## [2.3.0](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v2.2.0...v2.3.0) (2024-10-10)
 
 
