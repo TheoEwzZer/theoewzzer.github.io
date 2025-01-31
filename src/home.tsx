@@ -102,25 +102,6 @@ export default function Home(): React.ReactElement {
                 </svg>
               </a>
             </div>
-            <div className="home_button in_animation">
-              <a
-                className="button"
-                href="CV.pdf"
-                download="CV_Theo_Fabiano.pdf"
-              >
-                <p>Download Curriculum Vitae</p>
-                <svg
-                  className="button_arrow"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 17.69 17.39"
-                >
-                  <g>
-                    <path className="path_1" d="M8.9 12.4 L8.9 12.4" />
-                    <path className="path_2" d="M16.2 5 8.9 12.4 1.5 5" />
-                  </g>
-                </svg>
-              </a>
-            </div>
           </div>
         </div>
       </section>
