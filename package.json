@@ -41,7 +41,7 @@
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@types/node": "^22.13.4",
     "@types/react": "^19.0.10",
-    "@types/react-dom": "^19.0.3",
+    "@types/react-dom": "^19.0.4",
     "gh-pages": "^6.3.0",
     "typescript": "^5.5.3"
   },
