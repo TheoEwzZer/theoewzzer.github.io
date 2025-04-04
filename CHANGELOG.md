@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.5.0](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v2.4.0...v2.5.0) (2025-04-04)
+
+
+### Features
+
+* add GoatCounter script for analytics tracking ([7886ba8](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/7886ba889722dcc3c06c1171dc379d2382bebfae))
+
 ## [2.4.0](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v2.3.0...v2.4.0) (2025-01-30)
 
 
