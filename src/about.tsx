@@ -70,15 +70,6 @@ export default function About(): React.ReactElement {
               . <br />
               <br />
             </p>
-            <div className="photo">
-              <img
-                className="in_animation"
-                src="photo.jpg"
-                alt="Me"
-                width="760px"
-                height="760px"
-              />
-            </div>
           </div>
         </div>
       </section>
