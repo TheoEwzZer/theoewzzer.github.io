@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.5.1](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v2.5.0...v2.5.1) (2025-04-09)
+
+
+### Bug Fixes
+
+* update experiences ([63402db](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/63402dbdef6a91cc0f098f25c871b02f83a18666))
+
 ## [2.5.0](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v2.4.0...v2.5.0) (2025-04-04)
 
 
