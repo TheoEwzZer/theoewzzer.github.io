@@ -25,7 +25,7 @@
       "end_date": "2025-02-28",
       "type": "Teaching Assistant",
       "title": "Epitech",
-      "description": "As a teaching assistant at Epitech Marseille, I support students in their academic careers by monitoring their progress and leading various teaching activities. My responsibilities include supervising projects, managing training workshops and taking an active part in school life. I also liaise between students and teaching staff to ensure the smooth running of educational programs.",
+      "description": "As a teaching assistant at Epitech Marseille, I supported students in their academic careers by monitoring their progress and leading various teaching activities. My responsibilities included supervising projects, managing training workshops, and taking an active part in school life. I also acted as a liaison between students and teaching staff to ensure the smooth running of educational programs.",
       "tags": [
         {
           "name": "Educational supervision",
@@ -41,7 +41,10 @@
         { "name": "Python", "url": "https://www.python.org" },
         { "name": "HTML", "url": "https://en.wikipedia.org/wiki/HTML" },
         { "name": "CSS", "url": "https://en.wikipedia.org/wiki/CSS" },
-        { "name": "JavaScript", "url": "https://en.wikipedia.org/wiki/JavaScript" },
+        {
+          "name": "JavaScript",
+          "url": "https://en.wikipedia.org/wiki/JavaScript"
+        },
         { "name": "React", "url": "https://reactjs.org" }
       ],
       "link": "https://www.epitech.eu",
@@ -49,10 +52,10 @@
     },
     {
       "start_date": "2024-10-01",
-      "end_date": "2025-02-28",
+      "end_date": "2025-03-26",
       "type": "Teacher",
       "title": "Algorithmics",
-      "description": "As a Unity Engine teacher, I teach young people aged 12 to 15 the basics of video game development and programming. My role is to introduce these young talents to the creation of interactive 2D and 3D games, using Unity, a professional game engine. Through age-appropriate teaching sessions, I make learning fun and accessible, while developing their creativity and problem-solving skills.",
+      "description": "As a Unity Engine teacher, I taught young people aged 12 to 15 the basics of video game development and programming. My role was to introduce these young talents to the creation of interactive 2D and 3D games using Unity, a professional game engine. Through age-appropriate teaching sessions, I made learning fun and accessible, while developing their creativity and problem-solving skills.",
       "tags": [
         {
           "name": "Unity",
@@ -63,8 +66,8 @@
       "image": "images/experience/algo.png"
     },
     {
-      "start_date": "2025-02-01",
-      "end_date": "2025-04-01",
+      "start_date": "2025-01-28",
+      "end_date": "2025-07-31",
       "type": "Lead Developer",
       "title": "Seizen",
       "description": "As Lead Developer for Seizen, I'm responsible for developing a gaming server on Nanos World, the new generation sandbox game inspired by Garry's Mod. I oversee the implementation of gameplay features, server infrastructure, and custom game modes using Lua scripting. Working with Unreal Engine and React for the web interface, I ensure an engaging player experience while maintaining server performance and stability.",
