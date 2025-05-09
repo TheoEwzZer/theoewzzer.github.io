@@ -3,9 +3,10 @@
     {
       "start_date": "2023-07-10",
       "end_date": "2023-12-29",
-      "type": "Intern Developer",
+      "type": "Full Stack Developer",
+      "status": "Internship",
       "title": "Enedis",
-      "description": "As part of the Smart Grid & Electric Mobility team, I developed tools to facilitate interventions on the Enedis network. My missions included developing web applications for data management, optimizing intervention processes, and creating intuitive user interfaces. I also worked closely with the field teams to understand their needs and propose appropriate solutions, while respecting the network's safety and performance constraints.",
+      "description": "As part of the Smart Grid & Electric Mobility team at Enedis, I developed tools to support field operations on the electrical network. My responsibilities included building web applications for data management, optimizing intervention workflows, and designing intuitive user interfaces to streamline operations.",
       "tags": [
         {
           "name": "Python",
@@ -23,9 +24,10 @@
     {
       "start_date": "2024-09-20",
       "end_date": "2025-02-28",
-      "type": "Teaching Assistant",
+      "type": "Regional Teaching Assistant",
+      "status": "Part-time Internship",
       "title": "Epitech",
-      "description": "As a teaching assistant at Epitech Marseille, I supported students in their academic careers by monitoring their progress and leading various teaching activities. My responsibilities included supervising projects, managing training workshops, and taking an active part in school life. I also acted as a liaison between students and teaching staff to ensure the smooth running of educational programs.",
+      "description": "As a regional teaching assistant at Epitech Marseille, I support students throughout their academic journey, supervise their projects, lead workshops, and act as a liaison between students and the teaching staff to ensure smooth delivery of the curriculum.",
       "tags": [
         {
           "name": "Educational supervision",
@@ -54,8 +56,9 @@
       "start_date": "2024-10-01",
       "end_date": "2025-03-26",
       "type": "Teacher",
+      "status": "Freelance",
       "title": "Algorithmics",
-      "description": "As a Unity Engine teacher, I taught young people aged 12 to 15 the basics of video game development and programming. My role was to introduce these young talents to the creation of interactive 2D and 3D games using Unity, a professional game engine. Through age-appropriate teaching sessions, I made learning fun and accessible, while developing their creativity and problem-solving skills.",
+      "description": "As a Unity instructor, I introduce students aged 12 to 15 to game development and programming. I guide them through the creation of interactive 2D and 3D games using Unity, making learning fun and accessible while fostering their creativity and problem-solving skills.",
       "tags": [
         {
           "name": "Unity",
@@ -67,10 +70,11 @@
     },
     {
       "start_date": "2025-01-28",
-      "end_date": "2025-07-31",
+      "end_date": "2025-03-30",
       "type": "Lead Developer",
+      "status": "Freelance",
       "title": "Seizen",
-      "description": "As Lead Developer for Seizen, I'm responsible for developing a gaming server on Nanos World, the new generation sandbox game inspired by Garry's Mod. I oversee the implementation of gameplay features, server infrastructure, and custom game modes using Lua scripting. Working with Unreal Engine and React for the web interface, I ensure an engaging player experience while maintaining server performance and stability.",
+      "description": "As Lead Developer for Seizen, I was responsible for building a game server on Nanos World, a next-generation sandbox inspired by Garry's Mod. I oversaw the implementation of gameplay features, server infrastructure, and custom game modes using Lua. I also worked with Unreal Engine and React to develop the web interface, ensuring an engaging and performant player experience.",
       "tags": [
         {
           "name": "React",
@@ -85,7 +89,27 @@
           "url": "https://www.unrealengine.com"
         }
       ],
-      "link": "https://discord.gg/E9UJkpcV4J",
+      "link": "https://discord.gg/seizen",
+      "image": "images/experience/seizen.png"
+    },
+    {
+      "start_date": "2025-03-31",
+      "end_date": "2025-07-31",
+      "type": "Lead Developer",
+      "status": "Internship",
+      "title": "Seizen",
+      "description": "Following an initial collaboration, I rejoined Seizen as Lead Developer to relaunch the project using Unreal Engine. I lead the design of gameplay systems, multiplayer integration, network architecture, and performance optimization on both client and server sides. I also designed the project’s official website and developed a community automation tool. This experience has strengthened my full-stack development skills, technical project management abilities, and my capacity to design high-performance systems for immersive gameplay.",
+      "tags": [
+        { "name": "Unreal Engine", "url": "https://www.unrealengine.com" },
+        { "name": "C++", "url": "https://en.wikipedia.org/wiki/C%2B%2B" },
+        { "name": "AWS", "url": "https://aws.amazon.com" },
+        { "name": "Prisma", "url": "https://www.prisma.io" },
+        { "name": "PostgreSQL", "url": "https://www.postgresql.org" },
+        { "name": "Next.js", "url": "https://nextjs.org" },
+        { "name": "Python", "url": "https://www.python.org" },
+        { "name": "Amazon DynamoDB", "url": "https://aws.amazon.com/dynamodb" }
+      ],
+      "link": "https://discord.gg/seizen",
       "image": "images/experience/seizen.png"
     }
   ]

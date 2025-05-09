@@ -12,6 +12,7 @@ interface Job {
   start_date: string;
   end_date: string;
   type: string;
+  status: string;
   link: string;
   title: string;
   description: string;
@@ -103,11 +104,11 @@ export default function Experience(): React.ReactElement {
           <div class="type">
             <span>${job_date}</span>
             <span>•</span>
-            <span>${job.type}</span>
+            <span>${job.status}</span>
           </div>
           <a class="job_title" href="${job.link}" target="_blank">${
-      job.title
-    }</a>
+      job.type
+    } at ${job.title}</a>
           <div class="text"><p>${job.description}</p></div>
           <div class="tags">${tags}</div>
         </div>
@@ -134,13 +135,13 @@ export default function Experience(): React.ReactElement {
       }" style="background-image: url(${job.image});">
         <div class="job_text">
           <div class="type">
-            <span>${job.type}</span>
+            <span>${job.status}</span>
             <span>•</span>
             <span>${job_date}</span>
           </div>
           <a class="job_title" href="${job.link}" target="_blank">${
-      job.title
-    }</a>
+      job.type
+    } at ${job.title}</a>
           <div class="text"><p>${job.description}</p></div>
           <div class="tags">${tags}</div>
         </div>
