@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.6.0](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v2.5.0...v2.6.0) (2025-05-09)
+
+
+### Features
+
+* update experience entries with new roles, descriptions, and statuses ([2cb00b4](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/2cb00b497fabb48f0fd4a1e5ce11f67002afafac))
+
+
+### Bug Fixes
+
+* update experiences ([63402db](https://github.com/TheoEwzZer/theoewzzer.github.io/commit/63402dbdef6a91cc0f098f25c871b02f83a18666))
+
 ## [2.5.0](https://github.com/TheoEwzZer/theoewzzer.github.io/compare/v2.4.0...v2.5.0) (2025-04-04)
 
 
