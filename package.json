@@ -7,7 +7,7 @@
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.8.1",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0",
+    "react-dom": "^19.1.1",
     "react-scripts": "5.0.1"
   },
   "homepage": "https://theofabiano.tech",
