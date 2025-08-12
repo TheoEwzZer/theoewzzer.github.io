@@ -3,7 +3,7 @@
   "version": "2.6.0",
   "private": true,
   "dependencies": {
-    "@tsparticles/engine": "^3.8.1",
+    "@tsparticles/engine": "^3.9.1",
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.8.1",
     "react": "^19.1.1",
